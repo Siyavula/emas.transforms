@@ -1,0 +1,2785 @@
+<document xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml/0.4">
+  <metadata>
+    <generator>
+      <name>process_chapter.py</name>
+      <git-commit>324f16b9fcfe29449832df3205fdb5f81d89b90b</git-commit>
+    </generator>
+  </metadata>
+  <content>
+    <section type="chapter">
+      <title>Classification of matter</title>
+      <section type="section">
+        <title>Materials</title>
+	<shortcode>ESAV</shortcode>
+        <para>All the objects that we see in the world around us, are made of <emphasis effect="bold">matter</emphasis>. Matter makes up the air we breathe, the ground we walk on, the food we eat and the animals and plants that live around us. Even our own human bodies are made of matter!</para>
+      
+          <para>Different objects can be made of different types of <emphasis effect="bold">materials</emphasis> (the matter from which objects are made). For example, a cupboard (an <emphasis effect="italics">object</emphasis>) is made of wood, nails, hinges and knobs (the <emphasis effect="italics">materials</emphasis>). The <emphasis effect="bold">properties</emphasis> of the materials will affect the properties of the object. In the example of the cupboard, the strength of the wood and metals make the cupboard strong and durable. It is very important to understand the properties of materials, so that we can use them in our homes, in industry and in other applications.</para>
+
+          <para><emphasis effect="bold">Cupboard</emphasis></para>
+          <image>
+            <arguments>width=.8\textwidth</arguments>
+            <src>photos/cupboardby-grongar-flickr.jpg</src>
+          </image>
+          <para><emphasis effect="italics">Photo by grongar on Flickr.com</emphasis></para>
+     
+        <video>
+          <title>Chapter introduction</title>
+          <shortcode>VPabo</shortcode>
+        </video>
+        <para>Some of the properties of matter that you should know are:</para>
+        <list list-type="bulleted">
+          <item>
+            <para>Materials can be <emphasis effect="bold">strong</emphasis> and resist bending (e.g. bricks, rocks) or <emphasis effect="bold">weak</emphasis> and bend easily (e.g. clothes)</para>
+          </item>
+          <item>
+            <para>Materials that conduct heat (e.g. metals) are called <emphasis effect="bold">thermal conductors</emphasis>. Materials that conduct electricity (e.g. copper wire) are <emphasis effect="bold">electrical conductors</emphasis>.</para>
+          </item>
+          <item>
+            <para><emphasis effect="bold">Brittle</emphasis> materials break easily (e.g. plastic). Materials that are <emphasis effect="bold">malleable</emphasis> can be easily formed into different shapes (e.g. clay, dough). <emphasis effect="bold">Ductile</emphasis> materials are able to be formed into long wires (e.g. copper).</para>
+          </item>
+          <item>
+            <para><emphasis effect="bold">Magnetic</emphasis> materials have a magnetic field (e.g. iron).</para>
+          </item>
+          <item>
+            <para><emphasis effect="bold">Density</emphasis> is the mass per unit volume. Examples of dense materials include concrete and stones.</para>
+          </item>
+          <item>
+            <para>The <emphasis effect="bold">boiling and melting points</emphasis> of substances tells us the temperature at which the substance will boil or melt. This helps us to classify substances as solids, liquids or gases at a specific temperature.</para>
+          </item>
+        </list>
+        <para>The diagram below shows one way in which matter can be classified (grouped) according to its different properties. As you read further in this chapter, you will see that there are also other ways of classifying materials, for example according to whether or not they are good electrical conductors.</para>
+        <figure id="fig:c:ClassificationOfMatter">
+          <type>figure</type>
+          <pspicture>
+            <code>
+              (-6,0.5)(6,5)
+\rput(0,4.8){\textbf{MATTER}}
+\psline(-3,4)(-3,4.4)(3,4.4)(3,4)
+\rput(-3,3.8){\textbf{MIXTURES}}
+\rput(3,3.8){\textbf{PURE SUBSTANCES}}
+\psline(-3,3.4)(-3,3.6)
+\psline(3,3.4)(3,3.6)
+\psline(-4.5,3)(-4.5,3.4)(-1.5,3.4)(-1.5,3)
+\psline(4.5,3)(4.5,3.4)(1.5,3.4)(1.5,3)
+\rput(-4.5,2.8){Homogeneous}
+\rput(-1.5,2.8){Heterogeneous}
+\rput(4.5,2.8){Compounds}
+\rput(1.5,2.8){Elements}
+\psline(1.5,2.6)(1.5,2.4)
+\psline(0,2.0)(0,2.4)(3,2.4)(3,2.0)
+\rput(0,1.8){Metals}
+\rput(3,1.8){Non-metals}
+\psline(0,1.4)(0,1.6)
+\psline(-1.5,1.2)(-1.5,1.4)(1.5,1.4)(1.5,1.2)
+\rput(-1.5,1){Magnetic}
+\rput(1.5,1){Non-magnetic}
+
+            </code>
+          </pspicture>
+          <caption>
+            <para>The classification of matter</para>
+          </caption>
+        </figure>
+        <activity type="activity">
+          <title>What materials are products made of?</title>
+ 
+            <para>This activity looks at the materials that make up food products. In groups of 3 or 4 look at the labels on food items. Make a list of the ingredients. Can you tell from the ingredients what the food is (i.e. spice, oil, sweets, etc.)? Food products are labelled to help you (the consumer) know what you are eating and to help you choose healthier alternatives. Some compounds, such as MSG and tartrazine are being removed from products due to being regarded as unsafe. Are there other ingredients in the products that are unsafe to eat? What preservatives and additives (e.g. tartrazine, MSG, colourants) are there? Are these preservatives and additives good for you? Are there natural (from plants) alternatives? What do different indigenous people groups use to flavor and preserve their food?</para>
+        
+            <para><emphasis effect="bold">Some labels on food items</emphasis></para>
+            <image>
+              <arguments>height=1.8\textwidth</arguments>
+              <src>photos/food_labels.png</src>
+            </image>
+   
+        </activity>
+        <activity type="activity">
+          <title>Classifying materials</title>
+          
+            <para>Look around you at the various structures. Make a list of all the different materials that you see. Try to work out why a particular material was used. Can you classify all the different materials used according to their properties? Why are these materials chosen over other materials?</para>
+          
+ 
+            <image>
+              <arguments>height=.8\textwidth</arguments>
+              <src>photos/windmillby-flowcomm-flickr.jpg</src>
+            </image>
+            <para><emphasis effect="italics">Picture by flowcomm on Flickr.com</emphasis></para>
+         
+            <image>
+              <arguments>height=.8\textwidth</arguments>
+              <src>photos/materials.png</src>
+            </image>
+          
+        </activity>
+      </section>
+      <section type="section">
+        <title>Mixtures</title>
+	<shortcode>ESAW</shortcode>
+        <para>We see mixtures all the time in our everyday lives. A stew, for example, is a mixture of different foods such as meat and vegetables; sea water is a mixture of water, salt and other substances, and air is a mixture of gases such as carbon dioxide, oxygen and nitrogen.</para>
+        <definition>
+          <term>Mixture</term>
+          <meaning>
+            <para>A mixture is a combination of two or more substances, where these substances are not bonded (or joined) to each other and no chemical reaction occurs between the substances.</para>
+          </meaning>
+        </definition>
+        <para>In a mixture, the substances that make up the mixture:</para>
+        <list list-type="bulleted">
+          <item>
+            <para><emphasis effect="bold">are not in a fixed ratio</emphasis></para>
+            
+
+            <para>Imagine, for example, that you have <unit_number><number><coeff>250</coeff></number><unit>ml</unit></unit_number> of water and you add sand to the water. It doesn't matter whether you add <unit_number><number><coeff>20</coeff></number><unit>g</unit></unit_number>, <unit_number><number><coeff>40</coeff></number><unit>g</unit></unit_number>, <unit_number><number><coeff>100</coeff></number><unit>g</unit></unit_number> or any other mass of sand to the water; it will still be called a mixture of sand and water.</para>
+          </item>
+          <item>
+            <para><emphasis effect="bold">keep their physical properties</emphasis></para>
+            
+
+            <para>In the example we used of sand and water, neither of these substances has changed in any way when they are mixed together. The sand is still sand and the water is still water.</para>
+          </item>
+          <item>
+            <para><emphasis effect="bold">can be separated by mechanical means</emphasis></para>
+            
+
+            <para>To separate something by &#8220;mechanical means&#8221;, means that there is no chemical process involved. In our sand and water example, it is possible to separate the mixture by simply pouring the water through a filter. Something <emphasis effect="italics">physical</emphasis> is done to the mixture, rather than something <emphasis effect="italics">chemical</emphasis>.</para>
+          </item>
+        </list>
+        <para>We can group mixtures further by dividing them into those that are heterogeneous and those that are homogeneous.</para>
+        <section type="subsection">
+          <title>Heterogeneous mixtures</title>
+	  <shortcode>ESAX</shortcode>
+          <para>A <emphasis effect="bold">heterogeneous</emphasis> mixture does not have a definite composition. Cereal in milk is an example of a heterogeneous mixture. Soil is another example. Soil has pebbles, plant matter and sand in it. Although you may add one substance to the other, they will stay separate in the mixture. We say that these heterogeneous mixtures are <emphasis effect="italics">non-uniform</emphasis>, in other words they are not exactly the same throughout.</para>
+   
+            <para><emphasis effect="bold">Cereal</emphasis></para>
+            <image>
+              <arguments>width=.8\textwidth</arguments>
+              <src>photos/mixtureby-dougww-flickr.jpg</src>
+            </image>
+            <para><emphasis effect="italics">Picture by dougww on Flickr.com</emphasis></para>
+    
+            <figure id="fig:heterogeneousmixture">
+              <type>figure</type>
+              <pspicture>
+                <code>
+                  (0,-1)(11,4.7)
+\SpecialCoor
+\psframe[fillstyle=crosshatch*,fillcolor=white,hatchcolor=lightgray,hatchwidth=1.2pt,hatchsep=1.8pt,hatchangle=0](0,0)(4,4)
+\pscircle[fillcolor=lightgray,fillstyle=solid](0.5,0.5){0.2}
+\pscircle[fillcolor=white,fillstyle=solid](1,1.2){0.1}
+\pscircle[fillcolor=lightgray,fillstyle=solid](2.1,1){0.2}
+\pscircle[fillcolor=white,fillstyle=solid](2.3,0.4){0.1}
+\pscircle[fillcolor=lightgray,fillstyle=solid](3.5,1){0.2}
+\pscircle[fillcolor=white,fillstyle=solid](0.5,1.6){0.1}
+\pscircle[fillcolor=white,fillstyle=solid](1,2){0.1}
+\pscircle[fillcolor=white,fillstyle=solid](1.8,1.5){0.1}
+\pscircle[fillcolor=lightgray,fillstyle=solid](2,2){0.2}
+\pscircle[fillcolor=lightgray,fillstyle=solid](0.5,2.7){0.2}
+\pscircle[fillcolor=lightgray,fillstyle=solid](2.3,2.5){0.2}
+\pscircle[fillcolor=white,fillstyle=solid](2.5,2.8){0.1}
+\pscircle[fillcolor=white,fillstyle=solid](3,3){0.1}
+\pscircle[fillcolor=white,fillstyle=solid](3.5,2.4){0.1}
+\pscircle[fillcolor=white,fillstyle=solid](0.5,3.5){0.1}
+\pscircle[fillcolor=white,fillstyle=solid](2,3.4){0.1}
+\pscircle[fillcolor=lightgray,fillstyle=solid](3.5,3.5){0.2}
+\pscircle[fillcolor=lightgray,fillstyle=solid](1.7,3.1){0.2}
+\pscircle[fillcolor=white,fillstyle=solid](3,3){0.1}
+
+                </code>
+              </pspicture>
+              <caption>
+                <para>A submicroscopic representation of a heterogeneous mixture. The gray circles are one substance (e.g. one cereal) and the white circles are another substance (e.g. another cereal). The background is the milk.</para>
+              </caption>
+            </figure>
+       
+          <definition>
+            <term>Heterogeneous mixture</term>
+            <meaning>
+              <para>A heterogeneous mixture is one that consists of two or more substances. It is non-uniform and the different components of the mixture can be seen.</para>
+            </meaning>
+          </definition>
+          <para>Heterogeneous mixtures can be further subdivided according to whether it is two liquids mixed, a solid and a liquid or a liquid and a gas or even a gas and a solid. These mixtures are given special names which you can see in table below.</para>
+          <figure id="tab:mixtures">
+            <type>table</type>
+            <table latex-column-spec="|l|l|l|">
+              <tgroup cols="3">
+                <colspec colname="c1" colnum="1"/>
+                <colspec colname="c2" colnum="2"/>
+                <colspec colname="c3" colnum="3"/>
+                <tbody>
+                  <row>
+                    <entry>
+                      <para><emphasis effect="bold">Phases of matter</emphasis></para>
+                    </entry>
+                    <entry>
+                      <para><emphasis effect="bold">Name of mixture</emphasis></para>
+                    </entry>
+                    <entry>
+                      <para><emphasis effect="bold">Example</emphasis></para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para>liquid-liquid</para>
+                    </entry>
+                    <entry>
+                      <para>emulsion</para>
+                    </entry>
+                    <entry>
+                      <para>oil in water</para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para>solid-liquid</para>
+                    </entry>
+                    <entry>
+                      <para>suspension</para>
+                    </entry>
+                    <entry>
+                      <para>muddy water</para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para>gas-liquid</para>
+                    </entry>
+                    <entry>
+                      <para>aerosol</para>
+                    </entry>
+                    <entry>
+                      <para>fizzy drinks</para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para>gas-solid</para>
+                    </entry>
+                    <entry>
+                      <para>smoke</para>
+                    </entry>
+                    <entry>
+                      <para>smog</para>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+            <caption>
+              <para>Examples of different heterogeneous mixtures</para>
+            </caption>
+          </figure>
+        </section>
+        <section type="subsection">
+          <title>Homogeneous mixtures</title>
+	  <shortcode>ESAY</shortcode>
+          <para>A <emphasis effect="bold">homogeneous</emphasis> mixture has a definite composition, and specific properties. In a homogeneous mixture, the different parts cannot be seen. A solution of salt dissolved in water is an example of a homogeneous mixture. When the salt dissolves, it spreads evenly through the water so that all parts of the solution are the same, and you can no longer see the salt as being separate from the water. Think also of coffee without milk. The air we breathe is another example of a homogeneous mixture since it is made up of different gases which are in a constant ratio, and which can't be visually distinguished from each other (i.e. you can't see the different components).</para>
+          <video>
+            <title>the dissolving process</title>
+            <shortcode>VPabz</shortcode>
+          </video>
+         
+            <para><emphasis effect="bold">Coffee</emphasis></para>
+            <image>
+              <arguments>width=.3\textwidth</arguments>
+              <src>photos/coffeeby_JuliusSchorzman_wikimedia.jpg</src>
+            </image>
+            <para><emphasis effect="italics">Photo by Julius Schorzman on Wikimedia</emphasis></para>
+       
+            <para><emphasis effect="bold">Salt dissolving in water</emphasis></para>
+            <image>
+              <arguments>width=.5\textwidth</arguments>
+              <src>photos/saltwater.png</src>
+            </image>
+         
+          <note type="aside">
+            <para>An <emphasis effect="bold">alloy</emphasis> is a homogeneous mixture of two or more elements, at least one of which is a metal, where the resulting material has metallic properties. For example steel is an alloy made up mainly from iron with a small amount of carbon (to make it harder), manganese (to make it strong) and chromium (to prevent rusting).</para>
+          </note>
+          <definition>
+            <term>Homogeneous mixture</term>
+            <meaning>
+              <para>A homogeneous mixture is one that is uniform, and where the different components of the mixture cannot be seen.</para>
+            </meaning>
+          </definition>
+          <worked_example>
+            <title>Mixtures</title>
+            <question>
+              <para>For each of the following mixtures state whether it is a homogeneous or a heterogeneous mixture:</para>
+              <list list-type="enumerated">
+                <item>
+                  <para>sugar dissolved in water</para>
+                </item>
+                <item>
+                  <para>flour and iron filings (small pieces of iron)</para>
+                </item>
+              </list>
+            </question>
+            <answer>
+              <workstep>
+                <title>Look at the definition</title>
+                <para>We first look at the definition of a heterogeneous and homogeneous mixture.</para>
+              </workstep>
+              <workstep>
+                <title>Decide whether or not you can see the components</title>
+                <list list-type="enumerated">
+                  <item>
+                    <para>We cannot see the sugar in the water.</para>
+                  </item>
+                  <item>
+                    <para>We are able to make out the pieces of iron in the flour.</para>
+                  </item>
+                </list>
+              </workstep>
+              <workstep>
+                <title>Decide whether or not the components are mixed uniformly</title>
+                <list list-type="enumerated">
+                  <item>
+                    <para>The two components are mixed uniformly.</para>
+                  </item>
+                  <item>
+                    <para>In this mixture there may be places where there are a lot of iron filings and places where there is more flour, so it is not uniformly mixed.</para>
+                  </item>
+                </list>
+              </workstep>
+              <workstep>
+                <title>Give the final answer</title>
+                <list list-type="enumerated">
+                  <item>
+                    <para>Homogeneous mixture.</para>
+                  </item>
+                  <item>
+                    <para>Heterogeneous mixture.</para>
+                  </item>
+                </list>
+              </workstep>
+            </answer>
+          </worked_example>
+          <activity type="activity">
+            <title>Making mixtures</title>
+            <para>Make mixtures of sand and water, potassium dichromate and water, iodine and ethanol, iodine and water. Classify these as heterogeneous or homogeneous. Give reasons for your choice.</para>
+           
+              <para>Make your own mixtures by choosing any two substances from</para>
+              <list list-type="bulleted">
+                <item>
+                  <para>sand</para>
+                </item>
+                <item>
+                  <para>water</para>
+                </item>
+                <item>
+                  <para>stones</para>
+                </item>
+                <item>
+                  <para>cereal</para>
+                </item>
+                <item>
+                  <para>salt</para>
+                </item>
+                <item>
+                  <para>sugar</para>
+                </item>
+              </list>
+              <para>Try to make as many different mixtures as possible. Classify each mixture and give a reason for your choice.</para>
+
+              <image>
+                <arguments>width=.7\textwidth</arguments>
+                <src>photos/iodine-KCr2O7-wikipedia.jpg</src>
+              </image>
+        
+                <name>caption</name>
+                <para>Potassium dichromate (top) and iodine (bottom)</para>
+             
+          </activity>
+          <exercise print-placement="here">
+            <title>Mixtures</title>
+            <problem>
+              <para>Complete the following table:</para>
+              <table latex-column-spec="|l|p{2.5cm}|p{2.5cm}|p{2.5cm}|">
+                <tgroup cols="4">
+                  <colspec colname="c1" colnum="1"/>
+                  <colspec colname="c2" colnum="2"/>
+                  <colspec colname="c3" colnum="3"/>
+                  <colspec colname="c4" colnum="4"/>
+                  <tbody>
+                    <row>
+                      <entry>
+                        <para><emphasis effect="bold">Substance</emphasis></para>
+                      </entry>
+                      <entry>
+                        <para><emphasis effect="bold">Non-mixture or mixture</emphasis></para>
+                      </entry>
+                      <entry>
+                        <para><emphasis effect="bold">Heterogeneous mixture</emphasis></para>
+                      </entry>
+                      <entry>
+                        <para><emphasis effect="bold">Homogeneous mixture</emphasis></para>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>tap water</para>
+                      </entry>
+                      <entry/>
+                      <entry/>
+                      <entry/>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>brass (an alloy of copper and zinc)</para>
+                      </entry>
+                      <entry/>
+                      <entry/>
+                      <entry/>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>concrete</para>
+                      </entry>
+                      <entry/>
+                      <entry/>
+                      <entry/>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>aluminium foil (tinfoil)</para>
+                      </entry>
+                      <entry/>
+                      <entry/>
+                      <entry/>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>Coca Cola</para>
+                      </entry>
+                      <entry/>
+                      <entry/>
+                      <entry/>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>soapy water</para>
+                      </entry>
+                      <entry/>
+                      <entry/>
+                      <entry/>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>black tea</para>
+                      </entry>
+                      <entry/>
+                      <entry/>
+                      <entry/>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>sugar water</para>
+                      </entry>
+                      <entry/>
+                      <entry/>
+                      <entry/>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>baby milk formula</para>
+                      </entry>
+                      <entry/>
+                      <entry/>
+                      <entry/>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </table>
+            </problem>
+            <shortcodes>
+              <entry>
+                <number>1</number>
+                <shortcode>0000</shortcode>
+                <url>http://www.fullmarks.org.za/Members/wllhea002/questions/A000037/view</url>
+              </entry>
+            </shortcodes>
+          </exercise>
+        </section>
+      </section>
+      <section type="section">
+        <title>Pure substances</title>
+	<shortcode>ESAZ</shortcode>
+        <para>Any material that is not a mixture, is called a <emphasis effect="bold">pure substance</emphasis>. Pure substances include <emphasis effect="bold">elements</emphasis> and <emphasis effect="bold">compounds</emphasis>. It is much more difficult to break down pure substances into their parts, and complex chemical methods are needed to do this.</para>
+        <video>
+          <title>Classifying matter</title>
+          <shortcode>VPacc</shortcode>
+        </video>
+        <para>We can use melting and boiling points and chromatography to test for pure substances. Pure substances have a sharply defined (one temperature) melting or boiling point. Impure substances have a temperature range over which they melt or boil. Chromatography is the process of separating substances into their individual components. If a substance is pure then chromatography will only produce one substance at the end of the process. If a substance is impure then several substances will be seen at the end of the process.</para>
+        <activity type="activity">
+          <title>Recommended practical activity: Smartie chromatography</title>
+          <para>You will need:</para>
+          <list list-type="bulleted">
+            <item>
+              <para>filter paper (or blotting paper)</para>
+            </item>
+            <item>
+              <para>some smarties in different colours</para>
+            </item>
+            <item>
+              <para>water</para>
+            </item>
+            <item>
+              <para>an eye dropper.</para>
+            </item>
+          </list>
+         
+            <para>Place a smartie in the centre of a piece of filter paper. Carefully drop a few drops of water onto the smartie, until the smartie is quite wet and there is a ring of water on the filter paper. After some time you should see a coloured ring on the paper around the smartie. This is because the food colouring that is used to make the smartie colourful dissolves in the water and is carried through the paper away from the smartie.</para>
+          
+            <para><emphasis effect="bold">Smartie chromatography</emphasis></para>
+            <image>
+              <arguments>width=.8\textwidth</arguments>
+              <src>photos/smartie2.jpg</src>
+            </image>
+            <para><emphasis effect="italics">Photo by Neil Ravenscroft - UCT</emphasis></para>
+         
+        </activity>
+        <section type="subsection">
+          <title>Elements</title>
+	  <shortcode>ESAAA</shortcode>
+          <para>An <emphasis effect="bold">element</emphasis> is a chemical substance that can't be divided or changed into other chemical substances by any ordinary chemical means. The smallest unit of an element is the <emphasis effect="bold">atom</emphasis>.</para>
+          <definition>
+            <term>Element</term>
+            <meaning>
+              <para>An element is a substance that cannot be broken down into other substances through chemical means.</para>
+            </meaning>
+          </definition>
+          <para>There are 112 officially named elements and about 118 known elements. Most of these are natural, but some are man-made. The elements we know are represented in the <emphasis effect="bold">periodic table</emphasis>, where each element is abbreviated to a <emphasis effect="bold">chemical symbol</emphasis>. <link target-id="tab:elements"/> gives the first 20 elements and some of the common transition metals.</para>
+          <note type="aside">
+            <para>Recently it was agreed that two more elements would be added to the list of officially named elements. These are elements number 114 and 116. The proposed name for element 114 is flerovium and for element 116 it is moscovium. This brings the total number of officially named elements to 114.</para>
+          </note>
+          <figure id="tab:elements">
+            <type>table</type>
+            <table latex-column-spec="|l|l|l|l|">
+              <tgroup cols="4">
+                <colspec colname="c1" colnum="1"/>
+                <colspec colname="c2" colnum="2"/>
+                <colspec colname="c3" colnum="3"/>
+                <colspec colname="c4" colnum="4"/>
+                <tbody>
+                  <row>
+                    <entry>
+                      <para><emphasis effect="bold">Element name</emphasis></para>
+                    </entry>
+                    <entry>
+                      <para><emphasis effect="bold">Element symbol</emphasis></para>
+                    </entry>
+                    <entry>
+                      <para><emphasis effect="bold">Element name</emphasis></para>
+                    </entry>
+                    <entry>
+                      <para><emphasis effect="bold">Element symbol</emphasis></para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para>Hydrogen</para>
+                    </entry>
+                    <entry>
+                      <para><chem_compound>H</chem_compound></para>
+                    </entry>
+                    <entry>
+                      <para>Phosphorus</para>
+                    </entry>
+                    <entry>
+                      <para><chem_compound>P</chem_compound></para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para>Helium</para>
+                    </entry>
+                    <entry>
+                      <para><chem_compound>He</chem_compound></para>
+                    </entry>
+                    <entry>
+                      <para>Sulphur</para>
+                    </entry>
+                    <entry>
+                      <para><chem_compound>S</chem_compound></para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para>Lithium</para>
+                    </entry>
+                    <entry>
+                      <para><chem_compound>Li</chem_compound></para>
+                    </entry>
+                    <entry>
+                      <para>Chlorine</para>
+                    </entry>
+                    <entry>
+                      <para><chem_compound>Cl</chem_compound></para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para>Beryllium</para>
+                    </entry>
+                    <entry>
+                      <para><chem_compound>Be</chem_compound></para>
+                    </entry>
+                    <entry>
+                      <para>Argon</para>
+                    </entry>
+                    <entry>
+                      <para><chem_compound>Ar</chem_compound></para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para>Boron</para>
+                    </entry>
+                    <entry>
+                      <para><chem_compound>B</chem_compound></para>
+                    </entry>
+                    <entry>
+                      <para>Potassium</para>
+                    </entry>
+                    <entry>
+                      <para><chem_compound>K</chem_compound></para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para>Carbon</para>
+                    </entry>
+                    <entry>
+                      <para><chem_compound>C</chem_compound></para>
+                    </entry>
+                    <entry>
+                      <para>Calcium</para>
+                    </entry>
+                    <entry>
+                      <para><chem_compound>Ca</chem_compound></para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para>Nitrogen</para>
+                    </entry>
+                    <entry>
+                      <para><chem_compound>N</chem_compound></para>
+                    </entry>
+                    <entry>
+                      <para>Iron</para>
+                    </entry>
+                    <entry>
+                      <para><chem_compound>Fe</chem_compound></para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para>Oxygen</para>
+                    </entry>
+                    <entry>
+                      <para><chem_compound>O</chem_compound></para>
+                    </entry>
+                    <entry>
+                      <para>Nickel</para>
+                    </entry>
+                    <entry>
+                      <para><chem_compound>Ni</chem_compound></para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para>Fluorine</para>
+                    </entry>
+                    <entry>
+                      <para><chem_compound>F</chem_compound></para>
+                    </entry>
+                    <entry>
+                      <para>Copper</para>
+                    </entry>
+                    <entry>
+                      <para><chem_compound>Cu</chem_compound></para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para>Neon</para>
+                    </entry>
+                    <entry>
+                      <para><chem_compound>Ne</chem_compound></para>
+                    </entry>
+                    <entry>
+                      <para>Zinc</para>
+                    </entry>
+                    <entry>
+                      <para><chem_compound>Zn</chem_compound></para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para>Sodium</para>
+                    </entry>
+                    <entry>
+                      <para><chem_compound>Na</chem_compound></para>
+                    </entry>
+                    <entry>
+                      <para>Silver</para>
+                    </entry>
+                    <entry>
+                      <para><chem_compound>Ag</chem_compound></para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para>Magnesium</para>
+                    </entry>
+                    <entry>
+                      <para><chem_compound>Mg</chem_compound></para>
+                    </entry>
+                    <entry>
+                      <para>Platinum</para>
+                    </entry>
+                    <entry>
+                      <para><chem_compound>Pt</chem_compound></para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para>Aluminium</para>
+                    </entry>
+                    <entry>
+                      <para><chem_compound>Al</chem_compound></para>
+                    </entry>
+                    <entry>
+                      <para>Gold</para>
+                    </entry>
+                    <entry>
+                      <para><chem_compound>Au</chem_compound></para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para>Silicon</para>
+                    </entry>
+                    <entry>
+                      <para><chem_compound>Si</chem_compound></para>
+                    </entry>
+                    <entry>
+                      <para>Mercury</para>
+                    </entry>
+                    <entry>
+                      <para><chem_compound>Hg</chem_compound></para>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+            <caption>
+              <para>List of the first 20 elements and some common transition metals</para>
+            </caption>
+          </figure>
+        </section>
+        <section type="subsection">
+          <title>Compounds</title>
+	  <shortcode>ESAAB</shortcode>
+          <para>A <emphasis effect="bold">compound</emphasis> is a chemical substance that forms when two or more different elements combine in a fixed ratio. Water (<chem_compound>H_{2}O</chem_compound>), for example, is a compound that is made up of two hydrogen atoms for every one oxygen atom. Sodium chloride (<chem_compound>NaCl</chem_compound>) is a compound made up of one sodium atom for every chlorine atom. An important characteristic of a compound is that it has a <emphasis effect="bold">chemical formula</emphasis>, which describes the ratio in which the atoms of each element in the compound occur.</para>
+          <definition>
+            <term>Compound</term>
+            <meaning>
+              <para>A substance made up of two or more different elements that are joined together in a fixed ratio.</para>
+            </meaning>
+          </definition>
+          <video>
+            <title>Particles inside compounds</title>
+            <shortcode>VPacw</shortcode>
+          </video>
+          <para><link target-id="fig:classification:mixture and compound"/> might help you to understand the difference between the terms <emphasis effect="bold">element</emphasis>, <emphasis effect="bold">mixture</emphasis> and <emphasis effect="bold">compound</emphasis>. Iron (<chem_compound>Fe</chem_compound>) and sulphur (<chem_compound>S</chem_compound>) are two elements. When they are added together, they form a <emphasis effect="italics">mixture</emphasis> of iron and sulphur. The iron and sulphur are not joined together. However, if the mixture is heated, a new <emphasis effect="bold">compound</emphasis> is formed, which is called iron sulphide (<chem_compound>FeS</chem_compound>).</para>
+         <figure id="fig:classification:mixture and compound">
+          <type>figure</type>
+            <pspicture>
+              <code>
+                (0,-1)(11,4.7)
+\SpecialCoor
+\def\fe{\pscircle[fillcolor=violet!20!gray!70!blue,fillstyle=solid](0,0){0.4}\rput(0,0){Fe}}
+\def\s{\pscircle[fillcolor=yellow,fillstyle=solid](0,0){0.2}\rput(0,0){S}}
+\def\fes{\fe \rput(0.6,0){\s}} 
+
+\psframe(0,0)(4,4)
+\rput(1.5,2){\s}
+\rput{30}(3,1){\rput(1,1){\fe}\rput(1.5,2){\s}}
+\rput{65}(1.55,1.33){\rput(1,1){\fe}\rput(1.5,2){\s}}
+\rput{265}(2,3){\rput(-0.1,0.4){\fe}\rput(1.5,1.6){\s}}
+\rput(2,0.6){\s}
+\rput(1,1){\fe}
+\rput(3,0.7){\fe}
+\rput(2.4,2){\fe}
+\rput(1.4,3.6){\s}
+\psline(3.4,0.6)(4.2,0.6)
+\uput[r](4.2,0.6){\parbox{1.5cm}{
+An atom of the element iron (Fe)
+}}
+
+\psline(3.5,3.5)(4.2,3.5)
+\uput[r](4.2,3.5){\parbox{1.5cm}{
+An atom of the element sulphur (S)
+}}
+
+
+              </code>
+            </pspicture>
+        <caption>
+              <para>A mixture of iron and sulphur</para>
+           </caption>
+          </figure>
+
+         <figure>
+            <image>
+              <arguments>width=0.4\textwidth</arguments>
+              <src>photos/FeS_wikipedia.png</src>
+            </image>
+         
+              <caption>
+              <para>A model of the iron sulphide crystal</para>
+            </caption>
+	</figure>
+      
+          <note type="note">
+            <para> <link target-id="fig:classification:mixture and compound"/> showed a submicroscopic representation of a mixture. In a submicroscopic representation we use circles to represent different elements. To show a compound, we draw several circles joined together. Mixtures are simply shown as two or more individual elements in the same box. The circles are not joined for a mixture.</para>
+          </note>
+          <para>We can also use symbols to represent elements, mixtures and compounds. The symbols for the elements are all found on the periodic table. Compounds are shown as two or more element names written right next to each other. Subscripts may be used to show that there is more than one atom of a particular element. (e.g.<chem_compound>H_{2}O</chem_compound> or <chem_compound>NH_3</chem_compound>). Mixtures are written as: a mixture of element (or compound) A and element (or compound) B. (e.g. a mixture of <chem_compound>Fe</chem_compound> and <chem_compound>S</chem_compound>).</para>
+          <worked_example>
+            <title>Mixtures and pure substances</title>
+            <question>
+              <para>For each of the following substances state whether it is a pure substance or a mixture. If it is a mixture, is it homogeneous or heterogeneous? If it is a pure substance is it an element or a compound?</para>
+              <list list-type="enumerated">
+                <item>
+                  <para>Blood (which is made up from plasma and cells)</para>
+                </item>
+                <item>
+                  <para>Argon</para>
+                </item>
+                <item>
+                  <para>Silicon dioxide (<chem_compound>SiO_{2}</chem_compound>)</para>
+                </item>
+                <item>
+                  <para>Sand and stones</para>
+                </item>
+              </list>
+            </question>
+            <answer>
+              <workstep>
+                <title>Apply the definitions</title>
+                <para>An element is found on the periodic table, so we look at the periodic table and find that only argon appears there. Next we decide which are compounds and which are mixtures. Compounds consist of two or more elements joined in a fixed ratio. Sand and stones are not elements, neither is blood. But silicon is, as is oxygen. Finally we decide whether the mixtures are homogeneous or heterogeneous. Since we cannot see the separate components of blood it is homogeneous. Sand and stones are heterogeneous.</para>
+              </workstep>
+              <workstep>
+                <title>Write the answer</title>
+                <list list-type="enumerated">
+                  <item>
+                    <para>Blood is a homogeneous mixture.</para>
+                  </item>
+                  <item>
+                    <para>Argon is a pure substance. Argon is an element.</para>
+                  </item>
+                  <item>
+                    <para>Silicon dioxide is a pure substance. It is a compound.</para>
+                  </item>
+                  <item>
+                    <para>Sand and stones form a heterogeneous mixture.</para>
+                  </item>
+                </list>
+              </workstep>
+            </answer>
+          </worked_example>
+          <activity type="activity">
+            <title>Using models to represent substances</title>
+            <para>The following substances are given:</para>
+            <list list-type="bulleted">
+              <item>
+                <para>Air (consists of oxygen, nitrogen, hydrogen, water vapour)</para>
+              </item>
+              <item>
+                <para>Hydrogen gas (<chem_compound>H_{2}</chem_compound>)</para>
+              </item>
+              <item>
+                <para>Neon gas</para>
+              </item>
+              <item>
+                <para>Steam</para>
+              </item>
+              <item>
+                <para>Ammonia gas (<chem_compound>NH_{3}</chem_compound>)</para>
+              </item>
+            </list>
+            
+              <list list-type="enumerated">
+                <item>
+                  <para>Use coloured balls to build models for each of the substances given.</para>
+                </item>
+                <item>
+                  <para>Classify the substances according to elements, compounds, homogeneous mixtures, heterogeneous mixture, pure substance, impure substance.</para>
+                </item>
+                <item>
+                  <para>Draw submicroscopic representations for each of the above examples.</para>
+                </item>
+              </list>
+           
+              <image>
+                <arguments>width=.8\textwidth</arguments>
+                <src>photos/models_classification.jpg</src>
+              </image>
+  
+          </activity>
+          <exercise print-placement="here">
+            <title>Elements, mixtures and compounds</title>
+            <problem>
+              <para>In the following table, tick whether each of the substances listed is a <emphasis effect="italics">mixture</emphasis> or a <emphasis effect="italics">pure substance</emphasis>. If it is a mixture, also say whether it is a homogeneous or heterogeneous mixture.</para>
+              <figure>
+                <type>table</type>
+                <table latex-column-spec="|l|l|l|">
+                  <tgroup cols="3">
+                    <colspec colname="c1" colnum="1"/>
+                    <colspec colname="c2" colnum="2"/>
+                    <colspec colname="c3" colnum="3"/>
+                    <tbody>
+                      <row>
+                        <entry>
+                          <para><emphasis effect="bold">Substance</emphasis></para>
+                        </entry>
+                        <entry>
+                          <para><emphasis effect="bold">Mixture or pure</emphasis></para>
+                        </entry>
+                        <entry>
+                          <para><emphasis effect="bold">Homogeneous or heterogeneous mixture</emphasis></para>
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <para>fizzy colddrink</para>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                      </row>
+                      <row>
+                        <entry>
+                          <para>steel</para>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                      </row>
+                      <row>
+                        <entry>
+                          <para>oxygen</para>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                      </row>
+                      <row>
+                        <entry>
+                          <para>iron filings</para>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                      </row>
+                      <row>
+                        <entry>
+                          <para>smoke</para>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                      </row>
+                      <row>
+                        <entry>
+                          <para>limestone (<chem_compound>CaCO_{3}</chem_compound>)</para>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </figure>
+            </problem>
+            <problem>
+              <para>In each of the following cases, say whether the substance is an element, a mixture or a compound.</para>
+              <list list-type="enumerated">
+                <item>
+                  <para><chem_compound>Cu</chem_compound></para>
+                </item>
+                <item>
+                  <para>iron and sulphur</para>
+                </item>
+                <item>
+                  <para><chem_compound>Al</chem_compound></para>
+                </item>
+                <item>
+                  <para><chem_compound>H_{2}SO_{4}</chem_compound></para>
+                </item>
+                <item>
+                  <para><chem_compound>SO_{3}</chem_compound></para>
+                </item>
+              </list>
+            </problem>
+            <shortcodes>
+              <entry>
+                <number>1</number>
+                <shortcode>0001</shortcode>
+                <url>http://www.fullmarks.org.za/Members/wllhea002/questions/A000038/view</url>
+              </entry>
+              <entry>
+                <number>2</number>
+                <shortcode>0002</shortcode>
+                <url>http://www.fullmarks.org.za/Members/wllhea002/questions/A000039/view</url>
+              </entry>
+            </shortcodes>
+          </exercise>
+        </section>
+      </section>
+      <section type="section">
+        <title>Names and formulae of substances</title>
+	<shortcode>ESAAC</shortcode>
+        <para>Think about what you call your friends. Some of your friends might have full names (long names) and a nickname (short name). These are the words we use to tell others who or what we are referring to. Their full name is like the substances name and their nickname is like the substances formulae. Without these names your friends would have no idea which of them you are referring to. Chemical substances have names, just like people have names. This helps scientists to communicate efficiently.</para>
+        
+
+        <para>It is easy to describe elements and mixtures. We simply use the names that we find on the periodic table for elements and we use words to describe mixtures. But how are compounds named? In the example of iron sulphide that was used earlier, the compound name is a combination of the names of the elements but slightly changed.</para>
+        <video>
+          <title>why do chemical compounds form</title>
+          <shortcode>VPadm</shortcode>
+        </video>
+        <para>The following are some guidelines for naming compounds:</para>
+        <list list-type="enumerated">
+          <item>
+            <para>The compound name will always include the <emphasis effect="bold">names of the elements</emphasis> that are part of it.</para>
+            <list list-type="bulleted">
+              <item>
+                <para>A compound of <emphasis effect="bold">iron</emphasis> (<chem_compound>Fe</chem_compound>) and <emphasis effect="italics">sulphur</emphasis> (<chem_compound>S</chem_compound>) is <emphasis effect="bold">iron</emphasis><emphasis effect="italics">sulph</emphasis> ide (<chem_compound>FeS</chem_compound>)</para>
+              </item>
+              <item>
+                <para>A compound of <emphasis effect="bold">potassium</emphasis> (<chem_compound>K</chem_compound>) and <emphasis effect="italics">bromine</emphasis> (<chem_compound>Br</chem_compound>) is <emphasis effect="bold">potassium</emphasis><emphasis effect="italics">brom</emphasis> ide (<chem_compound>KBr</chem_compound>)</para>
+              </item>
+              <item>
+                <para>A compound of <emphasis effect="bold">sodium</emphasis> (<chem_compound>Na</chem_compound>) and <emphasis effect="italics">chlorine</emphasis> (<chem_compound>Cl</chem_compound>) is <emphasis effect="bold">sodium</emphasis><emphasis effect="italics">chlor</emphasis> ide (<chem_compound>NaCl</chem_compound>)</para>
+              </item>
+            </list>
+          </item>
+          <item>
+            <para>In a compound, the element that is on the left of the Periodic Table, is used <emphasis effect="italics">first</emphasis> when naming the compound. In the example of <chem_compound>NaCl</chem_compound>, sodium is a group 1 element on the left hand side of the table, while chlorine is in group 7 on the right of the table. Sodium therefore comes first in the compound name. The same is true for <chem_compound>FeS</chem_compound> and <chem_compound>KBr</chem_compound>.</para>
+          </item>
+          <item>
+            <para>The <emphasis effect="bold">symbols</emphasis> of the elements can be used to represent compounds e.g. <chem_compound>FeS</chem_compound>, <chem_compound>NaCl</chem_compound>, <chem_compound>KBr</chem_compound> and <chem_compound>H_{2}O</chem_compound>. These are called <emphasis effect="bold">chemical formulae</emphasis>. In the first three examples, the ratio of the elements in each compound is 1:1. So, for <chem_compound>FeS</chem_compound>, there is one atom of iron for every atom of sulphur in the compound. In the last example (<chem_compound>H_{2}O</chem_compound>) there are two atoms of hydrogen for every atom of oxygen in the compound.</para>
+          </item>
+          <item>
+            <para>A compound may contain <emphasis effect="bold">ions</emphasis> (an ion is an atom that has lost or gained electrons). These ions can either be simple (consist of only one element) or compound (consist of several elements). Some of the more common ions and their formulae are given in <link target-id="tab:cations"/> and in <link target-id="tab:anions"/>. You should know all these ions.</para>
+            <figure id="tab:cations">
+              <type>table</type>
+              <table latex-column-spec="|l|c|l|c|l|c|l|c|">
+                <tgroup cols="6">
+                  <colspec colname="c1" colnum="1"/>
+                  <colspec colname="c2" colnum="2"/>
+                  <colspec colname="c3" colnum="3"/>
+                  <colspec colname="c4" colnum="4"/>
+                  <colspec colname="c5" colnum="5"/>
+                  <colspec colname="c6" colnum="6"/>
+                  <tbody>
+                    <row>
+                      <entry>
+                        <para><emphasis effect="bold">Compound ion</emphasis></para>
+                      </entry>
+                      <entry>
+                        <para><emphasis effect="bold">Formula</emphasis></para>
+                      </entry>
+                      <entry>
+                        <para><emphasis effect="bold">Compound ion</emphasis></para>
+                      </entry>
+                      <entry>
+                        <para><emphasis effect="bold">Formula</emphasis></para>
+                      </entry>
+                      <entry>
+                        <para><emphasis effect="bold">Compound ion</emphasis></para>
+                      </entry>
+                      <entry>
+                        <para><emphasis effect="bold">Formula</emphasis></para>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>Hydrogen</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>H^{+}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Lithium</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>Li^{+}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Sodium</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>Na^{+}</chem_compound></para>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>Potassium</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>K^{+}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Silver</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>Ag^{+}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Mercury (I)</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>Hg^{+}</chem_compound></para>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>Copper (I)</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>Cu^{+}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Ammonium</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>NH_{4}^{+}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Beryllium</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>Be^{2+}</chem_compound></para>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>Magnesium</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>Mg^{2+}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Calcium</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>Ca^{2+}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Barium</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>Ba^{2+}</chem_compound></para>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>Tin (II)</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>Sn^{2+}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Lead (II)</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>Pb^{2+}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Chromium (II)</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>Cr^{2+}</chem_compound></para>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>Manganese (II)</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>Mn^{2+}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Iron (II)</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>Fe^{2+}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Cobalt (II)</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>Co^{2+}</chem_compound></para>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>Nickel</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>Ni^{2+}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Copper (II)</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>Cu^{2+}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Zinc</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>Zn^{2+}</chem_compound></para>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>Aluminium</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>Al^{3+}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Chromium (III)</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>Cr^{3+}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Iron (III)</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>Fe^{3+}</chem_compound></para>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>Cobalt (III)</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>Co^{3+}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Chromium (VI)</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>Cr^{6+}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Manganese (VII)</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>Mn^{7+}</chem_compound></para>
+                      </entry>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </table>
+              <caption>
+                <para>Table of cations</para>
+              </caption>
+            </figure>
+            <figure id="tab:anions">
+              <type>table</type>
+              <table latex-column-spec="|l|c|l|c|l|c|l|c|">
+                <tgroup cols="8">
+                  <colspec colname="c1" colnum="1"/>
+                  <colspec colname="c2" colnum="2"/>
+                  <colspec colname="c3" colnum="3"/>
+                  <colspec colname="c4" colnum="4"/>
+                  <tbody>
+                    <row>
+                      <entry>
+                        <para><emphasis effect="bold">Compound ion</emphasis></para>
+                      </entry>
+                      <entry>
+                        <para><emphasis effect="bold">Formula</emphasis></para>
+                      </entry>
+                      <entry>
+                        <para><emphasis effect="bold">Compound ion</emphasis></para>
+                      </entry>
+                      <entry>
+                        <para><emphasis effect="bold">Formula</emphasis></para>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>Fluoride</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>F^{-}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Oxide</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>O^{2-}</chem_compound></para>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>Chloride</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>Cl^{-}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Peroxide</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>O_{2}^{2-}</chem_compound></para>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>Bromide</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>Br^{-}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Carbonate</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>CO_{3}^{2-}</chem_compound></para>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>Iodide</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>I^{-}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Sulphide</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>S^{2-}</chem_compound></para>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>Hydroxide</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>OH^{-}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Sulphite</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>SO_{3}^{2-}</chem_compound></para>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>Nitrite</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>NO_{2}^{-}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Sulphate</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>SO_{4}^{2-}</chem_compound></para>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>Nitrate</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>NO_{3}^{-}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Thiosulphate</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>S_{2}O_{3}^{2-}</chem_compound></para>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>Hydrogen carbonate</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>HCO_{3}^{-}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Chromate</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>CrO_{4}^{2-}</chem_compound></para>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>Hydrogen sulphite</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>HSO_{3}^{-}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Dichromate</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>Cr_{2}O_{7}^{2-}</chem_compound></para>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>Hydrogen sulphate</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>HSO_{4}^{-}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Manganate</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>MnO_{4}^{2-}</chem_compound></para>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>Dihydrogen phosphate</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>H_{2}PO_{4}^{-}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Oxalate</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>COO_{2}^{2-}</chem_compound>/<chem_compound>C_{2}O_{4}^{2-}</chem_compound></para>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>Hypochlorite</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>ClO^{-}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Hydrogen phosphate</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>HPO_{4}^{2-}</chem_compound></para>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>Chlorate</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>ClO_{3}^{-}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Nitride</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>N^{3-}</chem_compound></para>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>Permanganate</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>MnO_{4}^{-}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Phosphate</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>PO_{4}^{3-}</chem_compound></para>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <para>Acetate (ethanoate)</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>CH_{3}COO^{-}</chem_compound></para>
+                      </entry>
+                      <entry>
+                        <para>Phosphide</para>
+                      </entry>
+                      <entry>
+                        <para><chem_compound>P^{3-}</chem_compound></para>
+                      </entry>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </table>
+              <caption>
+                <para>Table of anions</para>
+              </caption>
+            </figure>
+          </item>
+          <item>
+            <para><emphasis effect="bold">Prefixes</emphasis> can be used to describe the ratio of the elements that are in the compound. This is used for non-metals. For metals, we add a roman number (I, II, III, IV) in brackets after the metal ion to indicate the ratio. You should know the following prefixes: &#8220;mono&#8221; (one), &#8220;di&#8221; (two) and &#8220;tri&#8221; (three).</para>
+            <list list-type="bulleted">
+              <item>
+                <para><chem_compound>CO</chem_compound> (carbon <emphasis effect="bold">mon</emphasis> oxide) - There is one atom of oxygen for every one atom of carbon</para>
+              </item>
+              <item>
+                <para><chem_compound>NO_{2}</chem_compound> (nitrogen <emphasis effect="bold">di</emphasis> oxide) - There are two atoms of oxygen for every one atom of nitrogen</para>
+              </item>
+              <item>
+                <para><chem_compound>SO_{3}</chem_compound> (sulphur <emphasis effect="bold">tri</emphasis> oxide) - There are three atoms of oxygen for every one atom of sulphur</para>
+              </item>
+            </list>
+          </item>
+        </list>
+        <note type="tip">
+          <para>When numbers are written as &#8220;subscripts&#8221; in compounds (i.e. they are written below and to the right of the element symbol), this tells us how many atoms of that element there are in relation to other elements in the compound. For example in nitrogen dioxide (<chem_compound>NO_{2}</chem_compound>) there are two oxygen atoms for every one atom of nitrogen. Later, when we start looking at chemical equations, you will notice that sometimes there are numbers <emphasis effect="italics">before</emphasis> the compound name. For example, <chem_compound>2H_{2}O</chem_compound> means that there are two molecules of water, and that in each molecule there are two hydrogen atoms for every one oxygen atom.</para>
+        </note>
+        <para>The above guidelines also help us to work out the formula of a compound from the name of the compound. The following worked examples will look at names and formulae in detail.</para>
+        
+
+        <para>We can use these rules to help us name both ionic compounds and covalent compounds. However, covalent compounds are often given other names by scientists to simplify the name (or because the molecule was named long before its formula was discovered). For example, if we have 2 hydrogen atoms and one oxygen atom the above naming rules would tell us that the substance is dihydrogen monoxide. But this compound is better known as water!</para>
+        
+
+        <para>Some common covalent compounds are given in <link target-id="tab:covalentcpds"/></para>
+        <figure id="tab:covalentcpds">
+          <type>table</type>
+          <table latex-column-spec="|l|l|l|l|">
+            <tgroup cols="4">
+              <colspec colname="c1" colnum="1"/>
+              <colspec colname="c2" colnum="2"/>
+              <colspec colname="c3" colnum="3"/>
+              <colspec colname="c4" colnum="4"/>
+              <tbody>
+                <row>
+                  <entry>
+                    <para><emphasis effect="bold">Name</emphasis></para>
+                  </entry>
+                  <entry>
+                    <para><emphasis effect="bold">Formula</emphasis></para>
+                  </entry>
+                  <entry>
+                    <para><emphasis effect="bold">Name</emphasis></para>
+                  </entry>
+                  <entry>
+                    <para><emphasis effect="bold">Formula</emphasis></para>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para>water</para>
+                  </entry>
+                  <entry>
+                    <para><chem_compound>H_{2}O</chem_compound></para>
+                  </entry>
+                  <entry>
+                    <para>hydrochloric acid</para>
+                  </entry>
+                  <entry>
+                    <para><chem_compound>HCl</chem_compound></para>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para>sulphuric acid</para>
+                  </entry>
+                  <entry>
+                    <para><chem_compound>H_{2}SO_{4}</chem_compound></para>
+                  </entry>
+                  <entry>
+                    <para>methane</para>
+                  </entry>
+                  <entry>
+                    <para><chem_compound>CH_{4}</chem_compound></para>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para>ethane</para>
+                  </entry>
+                  <entry>
+                    <para><chem_compound>C_{2}H_{6}</chem_compound></para>
+                  </entry>
+                  <entry>
+                    <para>ammonia</para>
+                  </entry>
+                  <entry>
+                    <para><chem_compound>NH_{3}</chem_compound></para>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para>nitric acid</para>
+                  </entry>
+                  <entry>
+                    <para><chem_compound>HNO_{3}</chem_compound></para>
+                  </entry>
+                  <entry/>
+                  <entry/>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <caption>
+            <para>Names of common covalent compounds</para>
+          </caption>
+        </figure>
+        <worked_example>
+          <title>Writing chemical formulae 1</title>
+          <question>
+            <para>What is formula of sodium fluoride?</para>
+          </question>
+          <answer>
+            <workstep>
+              <title>List the ions involved</title>
+              <para>We have the sodium ion (<chem_compound>Na^{+}</chem_compound>) and the fluoride ion (<chem_compound>F^{-}</chem_compound>). (You can look these up on the tables of cations and anions.)</para>
+            </workstep>
+            <workstep>
+              <title>Write down the charges on the ions</title>
+              <para>The sodium ion has a charge of <number><coeff>+1</coeff></number> and the fluoride ion has a charge of <number><coeff>-1</coeff></number>.</para>
+            </workstep>
+            <workstep>
+              <title>Find the right combination</title>
+              <para>For every plus, we must have a minus. So the <number><coeff>+1</coeff></number> from sodium cancels out the <number><coeff>-1</coeff></number> from fluoride. They combine in a <m:math><m:mrow><m:mn>1</m:mn><m:mo>:</m:mo><m:mn>1</m:mn></m:mrow></m:math> ratio.</para>
+            </workstep>
+            <workstep>
+              <title>Write the formula</title>
+              <para><chem_compound>NaF</chem_compound></para>
+            </workstep>
+          </answer>
+        </worked_example>
+        <worked_example>
+          <title>Writing chemical formulae 2</title>
+          <question>
+            <para>What is the formula for magnesium chloride?</para>
+          </question>
+          <answer>
+            <workstep>
+              <title>List the ions involved</title>
+              <para><chem_compound>Mg^{2+}</chem_compound> and <chem_compound>Cl^{-}</chem_compound></para>
+            </workstep>
+            <workstep>
+              <title>Find the right combination</title>
+              <para>Magnesium has a charge of <number><coeff>+2</coeff></number> and would need two chlorides to balance the charge. They will combine in a 1:2 ratio. There is an easy way to find this ratio:</para>
+              <figure>
+                <type>figure</type>
+                <pspicture>
+                  <code>
+                    (0,0)(2,2)
+\SpecialCoor
+\psline[linewidth=0.04]{-&gt;}(0,1)(1,0)
+\uput[r](-1.2,1){\large{$\text{Mg}^{2+}$}}
+\psline[linewidth=0.04]{-&gt;}(0,0)(1,1)
+\uput[r](-1,0){\large{$\text{Cl}^{-}$}}
+\uput[r](1,1){\large{$2$}}
+\uput[r](1,0){\large{$1$}}
+
+
+                  </code>
+                </pspicture>
+              </figure>
+              <para>Draw a cross as above, and then you can see that <chem_compound>Mg^{+}</chem_compound> &#8594;<number><coeff>1</coeff></number> and <chem_compound>Cl^{+}</chem_compound> &#8594;<number><coeff>2</coeff></number>.</para>
+            </workstep>
+            <workstep>
+              <title>Write down the formula</title>
+              <para><chem_compound>MgCl_{2}</chem_compound></para>
+            </workstep>
+          </answer>
+        </worked_example>
+        <worked_example>
+          <title>Writing chemical formulae 3</title>
+          <question>
+            <para>Write the chemical formula for magnesium oxide.</para>
+          </question>
+          <answer>
+            <workstep>
+              <title>List the ions involved.</title>
+              <para><chem_compound>Mg_{2+}</chem_compound> and <chem_compound>O_{2-}</chem_compound></para>
+            </workstep>
+            <workstep>
+              <title>Find the right combination</title>
+              <para><chem_compound>Mg_{2+}</chem_compound>:<number><coeff>2</coeff></number></para>
+              
+
+              <para><chem_compound>O_{2-}</chem_compound>:<number><coeff>2</coeff></number></para>
+              
+
+              <para>If you use the cross method, you will get a ratio of <number><coeff>2</coeff></number>:<number><coeff>2</coeff></number>. This ratio must always be in simplest form, i.e. <number><coeff>1</coeff></number>:<number><coeff>1</coeff></number>.</para>
+            </workstep>
+            <workstep>
+              <title>Write down the formula</title>
+              <para><chem_compound>MgO</chem_compound> (<emphasis effect="bold">not </emphasis><chem_compound>Mg_{2}O_{2}</chem_compound>)</para>
+            </workstep>
+          </answer>
+        </worked_example>
+        <worked_example>
+          <title>Writing chemical formulae 4</title>
+          <question>
+            <para>Write the formula for copper(II) nitrate.</para>
+          </question>
+          <answer>
+            <workstep>
+              <title>List the ions involved</title>
+              <para><chem_compound>Cu^{2+}</chem_compound>  (the questions asks for copper(II) not copper(I))</para>
+              
+
+              <para><chem_compound>NO_{3}^{-}</chem_compound> </para>
+            </workstep>
+            <workstep>
+              <title>Find the right combination</title>
+              <figure>
+                <type>figure</type>
+                <pspicture>
+                  <code>
+                    (0,0)(2,2)
+\SpecialCoor
+\psline[linewidth=0.04]{-&gt;}(0,1)(1,0)
+\uput[r](-1,1){\large{$\text{Cu}^{2+}$}}
+\psline[linewidth=0.04]{-&gt;}(0,0)(1,1)
+\uput[r](-1.2,0){\large{$\text{NO}_{3}^{-}$}}
+\uput[r](1,1){\large{$2$}}
+\uput[r](1,0){\large{$1$}}
+
+
+                  </code>
+                </pspicture>
+              </figure>
+            </workstep>
+            <workstep>
+              <title>Write the formula</title>
+              <para><chem_compound>Cu(NO_{3})_{2}</chem_compound> </para>
+            </workstep>
+          </answer>
+        </worked_example>
+        <note type="tip">
+          <para>Notice how in the last example we wrote <chem_compound>NO_{3}</chem_compound>  inside brackets. We do this to indicate that <chem_compound>NO_{3}</chem_compound>   is a compound ion and that there are two of these ions bonded to one copper ion.</para>
+        </note>
+        <activity type="activity">
+          <title>The ions dating game</title>
+          <para>Your teacher will assign each of you a different ion (written on a piece of card). Stick this to yourself. You will also get cards with the numbers 1 - 5 on them. Now walk around the class and try to work out who you can pair up with and in what ratio. Once you have found a partner, indicate your ratio using the numbered cards. Check your results with your classmates or your teacher.</para>
+        </activity>
+        <exercise print-placement="here">
+          <title>Naming compounds</title>
+          <problem>
+            <para>The formula for calcium carbonate is <chem_compound>CaCO_{3}</chem_compound></para>
+            <list list-type="enumerated">
+              <item>
+                <para>Is calcium carbonate an element or a compound? Give a reason for your answer.</para>
+              </item>
+              <item>
+                <para>What is the ratio of <chem_compound>Ca</chem_compound>: <chem_compound>C</chem_compound>:<chem_compound>O</chem_compound>    atoms in the formula?</para>
+              </item>
+            </list>
+          </problem>
+          <problem>
+            <para>Give the name of each of the following substances.</para>
+            <list list-type="enumerated">
+              <item>
+                <para><chem_compound>KBr</chem_compound> </para>
+              </item>
+              <item>
+                <para><chem_compound>HCl</chem_compound></para>
+              </item>
+              <item>
+                <para><chem_compound>KMnO_{4}</chem_compound></para>
+              </item>
+              <item>
+                <para><chem_compound>NO_{2}</chem_compound></para>
+              </item>
+              <item>
+                <para><chem_compound>NH_{4}OH</chem_compound></para>
+              </item>
+              <item>
+                <para><chem_compound>Na_{2}SO_{4}</chem_compound></para>
+              </item>
+              <item>
+                <para><chem_compound>Fe(NO_{3})_{3}</chem_compound></para>
+              </item>
+              <item>
+                <para><chem_compound>PbSO_{3}</chem_compound></para>
+              </item>
+              <item>
+                <para><chem_compound>Cu(HCO_{3})_{2}</chem_compound></para>
+              </item>
+            </list>
+          </problem>
+          <problem>
+            <para>Give the chemical formula for each of the following compounds.</para>
+            <list list-type="enumerated">
+              <item>
+                <para>potassium nitrate</para>
+              </item>
+              <item>
+                <para>sodium oxide</para>
+              </item>
+              <item>
+                <para>barium sulphate</para>
+              </item>
+              <item>
+                <para>aluminium chloride</para>
+              </item>
+              <item>
+                <para>magnesium phosphate</para>
+              </item>
+              <item>
+                <para>tin(II) bromide</para>
+              </item>
+              <item>
+                <para>manganese(II) phosphide</para>
+              </item>
+            </list>
+          </problem>
+          <shortcodes>
+            <entry>
+              <number>1</number>
+              <shortcode>0003</shortcode>
+              <url>http://www.fullmarks.org.za/Members/wllhea002/questions/A000040/view</url>
+            </entry>
+            <entry>
+              <number>2</number>
+              <shortcode>0004</shortcode>
+              <url>http://www.fullmarks.org.za/Members/wllhea002/questions/A000041/00000002/view</url>
+            </entry>
+            <entry>
+              <number>3</number>
+              <shortcode>0005</shortcode>
+              <url>http://www.fullmarks.org.za/Members/wllhea002/questions/A000042/00000002/view</url>
+            </entry>
+          </shortcodes>
+        </exercise>
+      </section>
+      <section type="section">
+        <title>Metals, Metalloids and Non-metals</title>
+	<shortcode>ESAAD</shortcode>
+        <para>The elements in the periodic table can also be divided according to whether they are <emphasis effect="bold">metals</emphasis>, <emphasis effect="bold">metalloids</emphasis> or <emphasis effect="bold">non-metals</emphasis>. The zigzag line separates all the elements that are metals from those that are non-metals. Metals are found on the left of the line, and non-metals are those on the right. Along the line you find the metalloids. You should notice that there are more metals then non-metals. Metals, metalloids and non-metals all have their own specific properties.</para>
+        <video>
+          <title>classifying matter</title>
+          <shortcode>VPaec</shortcode>
+        </video>
+        <figure id="fig:periodic">
+          <type>figure</type>
+          <pspicture>
+            <code>
+              (-2,-2)(20,10)
+\psset{unit=1}
+\pspolygon[fillstyle=solid,fillcolor=teal!20!white](0,3)(0,4)(1,4)(1,3)(0,3)
+\pspolygon[fillstyle=solid,fillcolor=lightgray](0,-1)(0,3)(2,3)(2,1)(12,1)(12,2)(13,2)(13,0)(14,0)(14,-1)(0,-1)
+\pspolygon[fillstyle=solid,fillcolor=cyan!50!white](12,2)(12,3)(13,3)(13,2)(12,2)
+\pspolygon[fillstyle=solid,fillcolor=cyan!50!white](13,0)(13,2)(14,2)(14,1)(15,1)(15,0)(16,0)(16,-1)(14,-1)(14,0)(13,0)
+\pspolygon[fillstyle=solid,fillcolor=teal!20!white](14,2)(13,2)(13,3)(17,3)(17,4)(18,4)(18,-1)(16,-1)(16,0)(15,0)(15,1)(14,1)(14,2)
+\uput[l](4,0){\Huge{Metals}}
+\uput[l](15.1,0.5){\Large{Metalloids}}
+\uput[l](13.1,2.5){\Large{Metalloids}}
+\uput[l](17.6,1.8){\LARGE{Non-metals}}
+\uput[l](0.9,3.5){\LARGE{H}}
+
+            </code>
+          </pspicture>
+          <caption>
+            <para>A simplified diagram showing part of the periodic table.</para>
+          </caption>
+        </figure>
+        <section type="subsection">
+          <title>Metals</title>
+	  <shortcode>ESAAE</shortcode>
+          
+            <para>Examples of metals include copper (<chem_compound>Cu</chem_compound>), zinc (<chem_compound>Zn</chem_compound>), gold (<chem_compound>Au</chem_compound>), silver (<chem_compound>Ag</chem_compound>), tin (<chem_compound>Sn</chem_compound>) and lead (<chem_compound>Pb</chem_compound>). The following are some of the properties of metals:</para>
+        
+            <para><emphasis effect="bold">Copper wire</emphasis></para>
+            <image>
+              <arguments>width=.2\textwidth</arguments>
+              <src>photos/copperwire.jpg</src>
+            </image>
+       
+          <list list-type="bulleted">
+            <item>
+              <para><emphasis effect="italics">Thermal conductors</emphasis></para>
+              
+
+              <para>Metals are good conductors of heat and are therefore used in cooking utensils such as pots and pans.</para>
+            </item>
+            <item>
+              <para><emphasis effect="italics">Electrical conductors</emphasis></para>
+              
+
+              <para>Metals are good conductors of electricity, and are therefore used in electrical conducting wires.</para>
+            </item>
+            <item>
+              <para><emphasis effect="italics">Shiny metallic lustre</emphasis></para>
+              
+
+              <para>Metals have a characteristic shiny appearance and are often used to make jewellery.</para>
+            </item>
+            <item>
+              <para><emphasis effect="italics">Malleable and ductile</emphasis></para>
+              
+
+              <para>This means that they can be bent into shape without breaking (malleable) and can be stretched into thin wires (ductile) such as copper.</para>
+            </item>
+            <item>
+              <para><emphasis effect="italics">Melting point</emphasis></para>
+              
+
+              <para>Metals usually have a high melting point and can therefore be used to make cooking pots and other equipment that needs to become very hot, without being damaged.</para>
+            </item>
+            <item>
+              <para><emphasis effect="italics">Density</emphasis></para>
+              
+
+              <para>Metals have a high density.</para>
+            </item>
+            <item>
+              <para><emphasis effect="italics">Magnetic properties</emphasis></para>
+              
+
+              <para>Only three main metals (iron, cobalt and nickel) are magnetic, the others are non-magnetic.</para>
+            </item>
+          </list>
+          <para>You can see how the properties of metals make them very useful in certain applications.</para>
+          <activity type="activity">
+            <title>Group Work : Looking at metals</title>
+           
+              <list list-type="enumerated">
+                <item>
+                  <para>Collect a number of metal items from your home or school. Some examples are listed below:</para>
+                  <list list-type="bulleted">
+                    <item>
+                      <para>hair clips</para>
+                    </item>
+                    <item>
+                      <para>safety pins</para>
+                    </item>
+                    <item>
+                      <para>cooking pots</para>
+                    </item>
+                    <item>
+                      <para>jewellery</para>
+                    </item>
+                    <item>
+                      <para>scissors</para>
+                    </item>
+                    <item>
+                      <para>cutlery (knives, forks, spoons)</para>
+                    </item>
+                  </list>
+                </item>
+                <item>
+                  <para>In groups of 3-4, combine your collection of metal objects.</para>
+                </item>
+                <item>
+                  <para>What is the function of each of these objects?</para>
+                </item>
+                <item>
+                  <para>Discuss why you think metal was used to make each object. You should consider the properties of metals when you answer this question.</para>
+                </item>
+              </list>
+            
+              <image>
+                <arguments>width=.8\textwidth</arguments>
+                <src>photos/metal_objects.jpg</src>
+              </image>
+           
+          </activity>
+        </section>
+        <section type="subsection">
+          <title>Non-metals</title>
+	  <shortcode>ESAAF</shortcode>
+        
+            <para>In contrast to metals, non-metals are poor thermal conductors, good electrical insulators (meaning that they do <emphasis effect="italics">not</emphasis> conduct electrical charge) and are neither malleable nor ductile. The non-metals include elements such as sulphur (<chem_compound>S</chem_compound>), phosphorus (<chem_compound>P</chem_compound>), nitrogen (<chem_compound>N</chem_compound>) and oxygen (<chem_compound>O</chem_compound>).</para>
+          
+            <para><emphasis effect="bold">Sulphur</emphasis></para>
+            <image>
+              <arguments>width=.4\textwidth</arguments>
+              <src>photos/sulphurby-nickstone333.jpg</src>
+            </image>
+            <para><emphasis effect="italics">Picture by nickstone333 on Flickr.com</emphasis></para>
+         
+        </section>
+        <section type="subsection">
+          <title>Metalloids</title>
+	  <shortcode>ESAAG</shortcode>
+          <para>Metalloids or semi-metals have mostly non-metallic properties. One of their distinguishing characteristics is that their conductivity increases as their temperature increases.</para>
+          
+            <para>This is the opposite of what happens in metals. This property is known as semi-conductance and the materials are called semi-conductors. Semi-conductors are important in digital electronics, such as computers. The metalloids include elements such as silicon (<chem_compound>Si</chem_compound>) and germanium (<chem_compound>Ge</chem_compound>).</para>
+         
+            <para><emphasis effect="bold">Silicon chips</emphasis></para>
+            <image>
+              <arguments>width=.6\textwidth</arguments>
+              <src>photos/siliconby-jurveston.jpg</src>
+            </image>
+            <para><emphasis effect="italics">Picture by jurveston on Flickr.com</emphasis></para>
+         
+        </section>
+      </section>
+      <section type="section">
+        <title>Electrical conductors, semi-conductors and insulators</title>
+	<shortcode>ESAAH</shortcode>
+        <definition>
+          <term>Electrical conductor</term>
+          <meaning>
+            <para>An electrical conductor is a substance that allows an electrical current to pass through it.</para>
+          </meaning>
+        </definition>
+        <para>Electrical conductors are usually metals. <emphasis effect="italics">Copper</emphasis> is one of the best electrical conductors, and this is why it is used to make conducting wire. In reality, <emphasis effect="italics">silver</emphasis> actually has an even higher electrical conductivity than copper, but silver is too expensive to use.</para>
+        <video>
+          <title>conductors and insulators</title>
+          <shortcode>VPaex</shortcode>
+        </video>
+       
+          <para>In the overhead power lines that we see above us, <emphasis effect="italics">aluminium</emphasis> is used. The aluminium usually surrounds a steel core which adds makes it stronger so that it doesn't break when it is stretched across distances. Sometimes gold is used to make wire because it is very resistant to surface corrosion. <emphasis effect="italics">Corrosion</emphasis> is when a material starts to deteriorate because of its reactions with oxygen and water in the air.</para>
+       
+          <para><emphasis effect="bold">Power lines</emphasis></para>
+          <image>
+            <arguments>height=.4\textwidth</arguments>
+            <src>photos/Tripp.jpg</src>
+          </image>
+          <para><emphasis effect="italics">Picture by Tripp on Flickr.com</emphasis></para>
+      
+        <definition>
+          <term>Insulators</term>
+          <meaning>
+            <para>An insulator is a non-conducting material that does not carry any charge.</para>
+          </meaning>
+        </definition>
+        <para>Examples of insulators are plastic and wood. <emphasis effect="bold">Semi-conductors</emphasis> behave like insulators when they are cold, and like conductors when they are hot. The elements silicon and germanium are examples of semi-conductors.</para>
+        <activity type="g_experiment">
+          <title>Electrical conductivity</title>
+          <section>
+            <title>Aim</title>
+            <para>To investigate the electrical conductivity of a number of substances</para>
+          </section>
+          <section>
+            <title>Apparatus</title>
+            
+              <list list-type="bulleted">
+                <item>
+                  <para>two or three cells</para>
+                </item>
+                <item>
+                  <para>light bulb</para>
+                </item>
+                <item>
+                  <para>crocodile clips</para>
+                </item>
+                <item>
+                  <para>wire leads</para>
+                </item>
+                <item>
+                  <para>a selection of test substances (e.g. a piece of plastic, aluminium can, metal pencil sharpener, magnet, wood, chalk, cloth).</para>
+                </item>
+              </list>
+          
+              <figure>
+                <type>figure</type>
+                <pspicture>
+                  <code>
+                    (0,-0.6)(5,6)
+\SpecialCoor
+\pnode(0,0){A}
+\pnode(0,5){B}
+\pnode(5,5){C}
+\pnode(5,0){D}
+\pnode(3.5,0){E}
+\pnode(1.5,0){F}
+\rput{90}{\lamp(A)(B){light bulb}}
+\battery(B)(C){cells}
+\psline(C)(D)
+\psline[arrowsize=10pt,arrowinset=0,arrowlength=2.5]{-&gt;}(D)(E)
+\psframe(1.5,-0.5)(3.5,0.5)
+\uput[u](2.5,0.5){test substance}
+\rput(2.5,0){X}
+\psline(4,0)(4,-0.4)(4.6,-0.4)
+\uput[r](4.6,-0.4){crocodile clip}
+\psline[arrowsize=10pt,arrowinset=0,arrowlength=2.5]{&lt;-}(F)(A)
+
+                  </code>
+                </pspicture>
+              </figure>
+          
+          </section>
+          <section>
+            <title>Method</title>
+            <list list-type="enumerated">
+              <item>
+                <para>Set up the circuit as shown above, so that the test substance is held between the two crocodile clips. The wire leads should be connected to the cells and the light bulb should also be connected into the circuit.</para>
+              </item>
+              <item>
+                <para>Place the test substances one by one between the crocodile clips and see what happens to the light bulb. If the light bulb shines it means that current is flowing and the substance you are testing is an <emphasis effect="bold">electrical conductor</emphasis>.</para>
+              </item>
+            </list>
+          </section>
+          <section>
+            <title>Results</title>
+            <para>Record your results in the table below:</para>
+            <figure>
+              <type>table</type>
+              <table latex-column-spec="|p{2cm}|p{2cm}|p{2cm}|p{2cm}|">
+                <tgroup cols="4">
+                  <colspec colname="c1" colnum="1"/>
+                  <colspec colname="c2" colnum="2"/>
+                  <colspec colname="c3" colnum="3"/>
+                  <colspec colname="c4" colnum="4"/>
+                  <tbody>
+                    <row>
+                      <entry>
+                        <para><emphasis effect="bold">Test substance</emphasis></para>
+                      </entry>
+                      <entry>
+                        <para><emphasis effect="bold">Metal/non-metal</emphasis></para>
+                      </entry>
+                      <entry>
+                        <para><emphasis effect="bold">Does the light bulb glow?</emphasis></para>
+                      </entry>
+                      <entry>
+                        <para><emphasis effect="bold">Conductor or insulator</emphasis></para>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry/>
+                      <entry/>
+                      <entry/>
+                      <entry/>
+                    </row>
+                    <row>
+                      <entry/>
+                      <entry/>
+                      <entry/>
+                      <entry/>
+                    </row>
+                    <row>
+                      <entry/>
+                      <entry/>
+                      <entry/>
+                      <entry/>
+                    </row>
+                    <row>
+                      <entry/>
+                      <entry/>
+                      <entry/>
+                      <entry/>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </table>
+            </figure>
+          </section>
+          <section>
+            <title>Conclusions</title>
+            <para>In the substances that were tested, the metals were able to conduct electricity and the non-metals were not. Metals are good electrical conductors and non-metals are not.</para>
+          </section>
+        </activity>
+        <simulation>
+          <title>The following simulation allows you to work through the above activity. For this simulation use the grab bag option to get materials to test. Set up the circuit as described in the activity.</title>
+          <shortcode>VPcyz</shortcode>
+        </simulation>
+      </section>
+      <section type="section">
+        <title>Thermal Conductors and Insulators</title>
+	<shortcode>ESAAI</shortcode>
+        <para>A <emphasis effect="bold">thermal conductor</emphasis> is a material that allows energy in the form of heat, to be transferred within the material, without any movement of the material itself. An easy way to understand this concept is through a simple demonstration.</para>
+        <video>
+          <title>which material is the better insulator</title>
+          <shortcode>VPafb</shortcode>
+        </video>
+        <activity type="g_experiment">
+          <title>Demonstration: Thermal conductivity</title>
+          <section>
+            <title>Aim</title>
+            <para>To demonstrate the ability of different substances to conduct heat.</para>
+          </section>
+          <section>
+            <title>Apparatus</title>
+            
+              <para>You will need:</para>
+              <list list-type="bulleted">
+                <item>
+                  <para>two cups (made from the same material e.g. plastic)</para>
+                </item>
+                <item>
+                  <para>a metal spoon</para>
+                </item>
+                <item>
+                  <para>a plastic spoon.</para>
+                </item>
+              </list>
+         
+              <figure>
+                <type>figure</type>
+                <pspicture>
+                  <code>
+                    (-5,-5)(5,5)
+\psset{unit=1cm}
+\newpsstyle{white} {linestyle=solid,linewidth=.1,fillstyle=none}
+\uput[r](-3,1){\Large{boiling water}}
+\psline[linewidth=0.04]{-&gt;}(-0.3,1)(0.5,1)
+\uput[r](-3,3){\Large{plastic spoon}}
+\psline[linewidth=0.04]{-&gt;}(-0.25,3)(0.2,3)
+\psline[linewidth=0.1](1.95,0)(0.25,3.2)
+\pstTubeEssais[glassType=becher,aspectLiquide1=white]
+\uput[r](3.5,1){\Large{boiling water}}
+\psline[linewidth=0.04]{-&gt;}(3.55,1)(2.6,1)
+\uput[r](3.5,3){\Large{metal spoon}}
+\psline[linewidth=0.04]{-&gt;}(3.55,3)(3,3)
+\psline[linewidth=0.1](0.95,0)(3,3.2)
+\pstTubeEssais[glassType=becher,aspectLiquide1=white]
+
+                  </code>
+                </pspicture>
+              </figure>
+          
+          </section>
+          <section>
+            <title>Method</title>
+            <list list-type="bulleted">
+              <item>
+                <para>Pour boiling water into the two cups so that they are about half full.</para>
+              </item>
+              <item>
+                <para>Place a metal spoon into one cup and a plastic spoon in the other.</para>
+              </item>
+              <item>
+                <para>Note which spoon heats up more quickly</para>
+              </item>
+            </list>
+            <note type="warning">
+              <para>Be careful when working with boiling water and when you touch the spoons as you can easily burn yourself.</para>
+            </note>
+          </section>
+          <section>
+            <title>Results</title>
+            <para>The metal spoon heats up faster than the plastic spoon. In other words, the metal conducts heat well, but the plastic does not.</para>
+          </section>
+          <section>
+            <title>Conclusion</title>
+            <para>Metal is a good thermal conductor, while plastic is a poor thermal conductor.</para>
+          </section>
+        </activity>
+        <para>An <emphasis effect="bold">insulator</emphasis> is a material that does not allow a transfer of electricity or energy. Materials that are poor thermal conductors can also be described as being good thermal insulators.</para>
+        <note type="aside">
+          <para>Well-insulated buildings need less energy for heating than buildings that have no insulation. Two building materials that are being used more and more worldwide, are <emphasis effect="bold">mineral wool</emphasis> and <emphasis effect="bold">polystyrene</emphasis>. Mineral wool is a good insulator because it holds air still in the matrix of the wool so that heat is not lost. Since air is a poor conductor and a good insulator, this helps to keep energy within the building. Polystyrene is also a good insulator and is able to keep cool things cool and hot things hot. It has the added advantage of being resistant to moisture, mould and mildew.</para>
+        </note>
+        <activity type="Investigation">
+          <title>A closer look at thermal conductivity</title>
+          <para>Look at the table below, which shows the thermal conductivity of a number of different materials, and then answer the questions that follow. The higher the number in the second column, the better the material is at conducting heat (i.e. it is a good thermal conductor). Remember that a material that conducts heat efficiently, will also lose heat more quickly than an insulating material.</para>
+          <figure>
+            <type>table</type>
+            <table latex-column-spec="|l|l|">
+              <tgroup cols="2">
+                <colspec colname="c1" colnum="1"/>
+                <colspec colname="c2" colnum="2"/>
+                <tbody>
+                  <row>
+                    <entry>
+                      <para><emphasis effect="bold">Material</emphasis></para>
+                    </entry>
+                    <entry>
+                      <para><emphasis effect="bold">Thermal Conductivity</emphasis></para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry/>
+                    <entry>
+                      <para><emphasis effect="bold">(W &#183; m<sup>-1</sup> &#183; K<sup>-1</sup>) </emphasis></para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para>Silver</para>
+                    </entry>
+                    <entry>
+                      <para><number><coeff>429</coeff></number></para>
+                    </entry>
+                  </row>
+                  <row>
+                     <entry>
+                      <para>Stainless steel</para>
+                    </entry>
+                    <entry>
+                      <para><number><coeff>16</coeff></number></para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para>Standard glass</para>
+                    </entry>
+                    <entry>
+                      <para><number><coeff>1.05</coeff></number></para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para>Concrete</para>
+                    </entry>
+                    <entry>
+                      <para><number><coeff>0.9</coeff></number> &#x2013; <number><coeff>2</coeff></number></para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para>Red brick</para>
+                    </entry>
+                    <entry>
+                      <para><number><coeff>0.69</coeff></number></para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para>Water</para>
+                    </entry>
+                    <entry>
+                      <para><number><coeff>0.58</coeff></number></para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para>Polyethylene (plastic)</para>
+                    </entry>
+                    <entry>
+                      <para><number><coeff>0.42</coeff></number> &#x2013; <number><coeff>0.51</coeff></number></para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para>Wood</para>
+                    </entry>
+                    <entry>
+                      <para><number><coeff>0.04 &#x2013;</coeff></number> <number><coeff>0.12</coeff></number></para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para>Polystyrene</para>
+                    </entry>
+                    <entry>
+                      <para><number><coeff>0.03</coeff></number></para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para>Air</para>
+                    </entry>
+                    <entry>
+                      <para><number><coeff>0.024</coeff></number></para>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </figure>
+          <para>Use this information to answer the following questions:</para>
+          <list list-type="enumerated">
+            <item>
+              <para>Name two materials that are good thermal conductors.</para>
+            </item>
+            <item>
+              <para>Name two materials that are good insulators.</para>
+            </item>
+            <item>
+              <para>Explain why:</para>
+              <list list-type="enumerated">
+                <item>
+                  <para>Red brick is a better choice than concrete for building houses that need less internal heating.</para>
+                </item>
+                <item>
+                  <para>Stainless steel is good for making cooking pots</para>
+                </item>
+              </list>
+            </item>
+          </list>
+        </activity>
+      </section>
+      <section type="section">
+        <title>Magnetic and Non-magnetic Materials</title>
+	<shortcode>ESAAJ</shortcode>
+        <para>We have now looked at a number of ways in which matter can be grouped, such as into metals, semi-metals and non-metals; electrical conductors and insulators, and thermal conductors and insulators. One way in which we can further group metals, is to divide them into those that are <emphasis effect="bold">magnetic</emphasis> and those that are <emphasis effect="bold">non-magnetic.</emphasis></para>
+        <video>
+          <title>magnetic materials</title>
+          <shortcode>VPaga</shortcode>
+        </video>
+        <definition>
+          <term>Magnetism</term>
+          <meaning>
+            <para>Magnetism is a force that certain kinds of objects, which are called `magnetic' objects, can exert on each other without physically touching. A magnetic object is surrounded by a magnetic `field' that gets weaker as one moves further away from the object.</para>
+          </meaning>
+        </definition>
+      
+          <para>A metal is said to be <emphasis effect="bold">ferromagnetic</emphasis> if it can be magnetised (i.e. made into a magnet). If you hold a magnet very close to a metal object, it may happen that its own electrical field will be induced and the object becomes magnetic. Some metals keep their magnetism for longer than others. Look at iron and steel for example. Iron loses its magnetism quite quickly if it is taken away from the magnet. Steel on the other hand will stay magnetic for a longer time. Steel is often used to make permanent magnets that can be used for a variety of purposes.</para>
+       
+          <para><emphasis effect="bold">Magnet</emphasis></para>
+          <image>
+            <arguments>width=.8\textwidth</arguments>
+            <src>photos/magnet.jpg</src>
+          </image>
+          <para><emphasis effect="italics">Photo by Aney on Wikimedia</emphasis></para>
+     
+        <para>Magnets are used to sort the metals in a scrap yard, in compasses to find direction, in the magnetic strips of video tapes and ATM cards where information must be stored, in computers and TV's, as well as in generators and electric motors.</para>
+        <activity type="Investigation">
+          <title>Magnetism</title>
+          <para>You can test whether an object is magnetic or not by holding another magnet close to it. If the object is attracted to the magnet, then it too is magnetic.</para>
+          
+
+          <para>Find five objects in your classroom or your home and test whether they are magnetic or not. Then complete the table below:</para>
+          <figure>
+            <type>table</type>
+            <table latex-column-spec="|p{3cm}|p{1.5cm}|">
+              <tgroup cols="2">
+                <colspec colname="c1" colnum="1"/>
+                <colspec colname="c2" colnum="2"/>
+                <tbody>
+                  <row>
+                    <entry>
+                      <para><emphasis effect="bold">Object</emphasis></para>
+                    </entry>
+                    <entry>
+                      <para><emphasis effect="bold">Magnetic or non-magnetic</emphasis></para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry/>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry/>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry/>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry/>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry/>
+                    <entry/>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </figure>
+        </activity>
+        <activity type="groupdiscussion">
+          <title>Properties of materials</title>
+          <para>In groups of 4-5, discuss how knowledge of the properties of materials has allowed::</para>
+          <list list-type="bulleted">
+            <item>
+              <para>society to develop advanced computer technology</para>
+            </item>
+            <item>
+              <para>homes to be provided with electricity</para>
+            </item>
+            <item>
+              <para>society to find ways to conserve energy</para>
+            </item>
+            <item>
+              <para>indigenous peoples to cook their food</para>
+            </item>
+          </list>
+        </activity>
+      </section>
+      <section type="section">
+	<title>Chapter summary</title>
+        <presentation>
+          <title>Chapter summary</title>
+          <shortcode>VPcyl</shortcode>
+        </presentation>
+        <list list-type="bulleted">
+          <item>
+            <para>All the objects and substances that we see in the world are made of <emphasis effect="bold">matter</emphasis>.</para>
+          </item>
+          <item>
+            <para>This matter can be classified according to whether it is a <emphasis effect="bold">mixture</emphasis> or a <emphasis effect="bold">pure substance</emphasis>.</para>
+          </item>
+          <item>
+            <para>A <emphasis effect="bold">mixture</emphasis> is a combination of two or more substances, where these substances are not bonded (or joined) to each other and no chemical reaction occurs between the substances. Examples of mixtures are air (a mixture of different gases) and cereal in milk.</para>
+          </item>
+          <item>
+            <para>The main <emphasis effect="bold">characteristics</emphasis> of mixtures are that the substances that make them up are not in a fixed ratio, these substances keep their physical properties and these substances can be separated from each other using mechanical means.</para>
+          </item>
+          <item>
+            <para>A <emphasis effect="bold">heterogeneous mixture</emphasis> is one that consists of two or more substances. It is non-uniform and the different components of the mixture can be seen. An example would be a mixture of sand and water.</para>
+          </item>
+          <item>
+            <para>A <emphasis effect="bold">homogeneous mixture</emphasis> is one that is uniform, and where the different components of the mixture cannot be seen. An example would be salt in water.</para>
+          </item>
+          <item>
+            <para>Pure substances can be further divided into <emphasis effect="bold">elements</emphasis> and <emphasis effect="bold">compounds</emphasis>.</para>
+          </item>
+          <item>
+            <para>An <emphasis effect="bold">element</emphasis> is a substance that cannot be broken down into other substances through chemical means.</para>
+          </item>
+          <item>
+            <para>All the elements are found on the <emphasis effect="bold">periodic table</emphasis>. Each element has its own chemical symbol. Examples are iron (<chem_compound>Fe</chem_compound>), sulphur (<chem_compound>S</chem_compound>), calcium (<chem_compound>Ca</chem_compound>), magnesium <chem_compound>(Mg</chem_compound>) and fluorine (<chem_compound>F</chem_compound>).</para>
+          </item>
+          <item>
+            <para>A <emphasis effect="bold">compound</emphasis> is a A substance made up of two or more different elements that are joined together in a fixed ratio. Examples of compounds are sodium chloride (<chem_compound>NaCl</chem_compound>), iron sulphide (<chem_compound>FeS</chem_compound>), calcium carbonate (<chem_compound>CaCO_{3}</chem_compound>) and water (<chem_compound>H_{2}O</chem_compound>).</para>
+          </item>
+          <item>
+            <para>When <emphasis effect="bold">naming compounds</emphasis> and writing their <emphasis effect="bold">chemical formula</emphasis>, it is important to know the elements that are in the compound, how many atoms of each of these elements will combine in the compound and where the elements are in the periodic table. A number of rules can then be followed to name the compound.</para>
+          </item>
+          <item>
+            <para>Another way of classifying matter is into <emphasis effect="bold">metals</emphasis> (e.g. iron, gold, copper), <emphasis effect="bold">metalloids</emphasis> (e.g. silicon and germanium) and <emphasis effect="bold">non-metals</emphasis> (e.g. sulphur, phosphorus and nitrogen).</para>
+          </item>
+          <item>
+            <para><emphasis effect="bold">Metals</emphasis> are good electrical and thermal conductors, they have a shiny lustre, they are malleable and ductile, and they have a high melting point. Metals also have a high density. These properties make metals very useful in electrical wires, cooking utensils, jewellery and many other applications.</para>
+          </item>
+          <item>
+            <para>Matter can also be classified into <emphasis effect="bold">electrical conductors</emphasis>, <emphasis effect="bold">semi-conductors</emphasis> and <emphasis effect="bold">insulators</emphasis>.</para>
+          </item>
+          <item>
+            <para>An <emphasis effect="bold">electrical conductor</emphasis> allows an electrical current to pass through it. Most metals are good electrical conductors.</para>
+          </item>
+          <item>
+            <para>An <emphasis effect="bold">electrical insulator</emphasis> is a non-conducting material that does not carry any charge. Examples are plastic, wood, cotton material and ceramic.</para>
+          </item>
+          <item>
+            <para>Materials may also be classified as <emphasis effect="bold">thermal conductors</emphasis> or <emphasis effect="bold">thermal insulators</emphasis> depending on whether or not they are able to conduct heat.</para>
+          </item>
+          <item>
+            <para>Materials may also be <emphasis effect="bold">magnetic</emphasis> or <emphasis effect="bold">non-magnetic</emphasis>. Magnetism is a force that certain kinds of objects, which are called &#8220;magnetic&#8221; objects, can exert on each other without physically touching. A magnetic object is surrounded by a magnetic &#8220;field&#8221; that gets weaker as one moves further away from the object.</para>
+          </item>
+        </list>
+      </section>
+      <exercise print-placement="end">
+        <title>Classification of matter</title>
+        <problem>
+          <para>Which of the following can be classified as a mixture:</para>
+          <list list-type="enumerated">
+            <item>
+              <para>sugar</para>
+            </item>
+            <item>
+              <para>table salt</para>
+            </item>
+            <item>
+              <para>air</para>
+            </item>
+            <item>
+              <para>iron</para>
+            </item>
+          </list>
+        </problem>
+        <problem>
+          <para>An element can be defined as:</para>
+          <list list-type="enumerated">
+            <item>
+              <para>A substance that cannot be separated into two or more substances by ordinary chemical (or physical) means</para>
+            </item>
+            <item>
+              <para>A substance with constant composition</para>
+            </item>
+            <item>
+              <para>A substance that contains two or more substances, in definite proportion by weight</para>
+            </item>
+            <item>
+              <para>A uniform substance</para>
+            </item>
+          </list>
+        </problem>
+        <problem>
+          <para>Classify each of the following substances as an <emphasis effect="italics">element</emphasis>, a <emphasis effect="italics">compound</emphasis>, a <emphasis effect="italics">homogeneous mixture</emphasis>, or a <emphasis effect="italics">heterogeneous mixture</emphasis>: salt, pure water, soil, salt water, pure air, carbon dioxide, gold and bronze.</para>
+        </problem>
+        <problem>
+          <para>Look at the table below. In the first column (A) is a list of substances. In the second column (B) is a description of the group that each of these substances belongs in. Match up the <emphasis effect="italics">substance</emphasis> in Column A with the <emphasis effect="italics">description</emphasis> in Column B.</para>
+          <figure>
+            <type>table</type>
+            <table latex-column-spec="|l|l|">
+              <tgroup cols="2">
+                <colspec colname="c1" colnum="1"/>
+                <colspec colname="c2" colnum="2"/>
+                <tbody>
+                  <row>
+                    <entry>
+                      <para><emphasis effect="bold">Column A</emphasis></para>
+                    </entry>
+                    <entry>
+                      <para><emphasis effect="bold">Column B</emphasis></para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para><emphasis effect="bold">1.</emphasis> iron</para>
+                    </entry>
+                    <entry>
+                      <para><emphasis effect="bold">A.</emphasis> a compound containing 2 elements</para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para><emphasis effect="bold">2.</emphasis> <chem_compound>H_{2}S</chem_compound></para>
+                    </entry>
+                    <entry>
+                      <para><emphasis effect="bold">B.</emphasis> a heterogeneous mixture</para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para><emphasis effect="bold">3.</emphasis> sugar solution</para>
+                    </entry>
+                    <entry>
+                      <para><emphasis effect="bold">C.</emphasis> a metal alloy</para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para><emphasis effect="bold">4.</emphasis> sand and stones</para>
+                    </entry>
+                    <entry>
+                      <para><emphasis effect="bold">D.</emphasis> an element</para>
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <para><emphasis effect="bold">5.</emphasis> steel</para>
+                    </entry>
+                    <entry>
+                      <para><emphasis effect="bold">E.</emphasis> a homogeneous mixture</para>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </figure>
+        </problem>
+        <problem>
+          <para>You are given a test tube that contains a mixture of iron filings and sulphur. You are asked to weigh the amount of iron in the sample.</para>
+          <list list-type="enumerated">
+            <item>
+              <para>Suggest one method that you could use to separate the iron filings from the sulphur.</para>
+            </item>
+            <item>
+              <para>What property of metals allows you to do this?</para>
+            </item>
+          </list>
+        </problem>
+        <problem>
+          <para>Given the following descriptions, write the chemical formula for each of the following substances:</para>
+          <list list-type="enumerated">
+            <item>
+              <para>silver metal</para>
+            </item>
+            <item>
+              <para>a compound that contains only potassium and bromine</para>
+            </item>
+            <item>
+              <para>a gas that contains the elements carbon and oxygen in a ratio of 1:2</para>
+            </item>
+          </list>
+        </problem>
+        <problem>
+          <para>Give the names of each of the following compounds:</para>
+          <list list-type="enumerated">
+            <item>
+              <para><chem_compound>NaBr</chem_compound></para>
+            </item>
+            <item>
+              <para><chem_compound>Ba(NO_{2})_{2}</chem_compound></para>
+            </item>
+            <item>
+              <para><chem_compound>SO_{2}</chem_compound></para>
+            </item>
+            <item>
+              <para><chem_compound>H_{2}SO_{4}</chem_compound></para>
+            </item>
+          </list>
+        </problem>
+        <problem>
+          <para>Give the formula for each of the following compounds:</para>
+          <list list-type="enumerated">
+            <item>
+              <para>iron (II) sulphate</para>
+            </item>
+            <item>
+              <para>boron trifluoride</para>
+            </item>
+            <item>
+              <para>potassium permanganate</para>
+            </item>
+            <item>
+              <para>zinc chloride</para>
+            </item>
+          </list>
+        </problem>
+        <problem>
+          <para>For each of the following materials, say what properties of the material make it important in carrying out its particular function.</para>
+          <list list-type="enumerated">
+            <item>
+              <para><emphasis effect="bold">tar</emphasis> on roads</para>
+            </item>
+            <item>
+              <para><emphasis effect="bold">iron</emphasis> burglar bars</para>
+            </item>
+            <item>
+              <para><emphasis effect="bold">plastic</emphasis> furniture</para>
+            </item>
+            <item>
+              <para><emphasis effect="bold">metal</emphasis> jewellery</para>
+            </item>
+            <item>
+              <para><emphasis effect="bold">clay</emphasis> for building</para>
+            </item>
+            <item>
+              <para><emphasis effect="bold">cotton</emphasis> clothing</para>
+            </item>
+          </list>
+        </problem>
+        <shortcodes>
+          <entry>
+            <number>1</number>
+            <shortcode>0006</shortcode>
+            <url>http://www.fullmarks.org.za/Members/wllhea002/questions/A000052/view</url>
+          </entry>
+          <entry>
+            <number>2</number>
+            <shortcode>0007</shortcode>
+            <url>http://www.fullmarks.org.za/Members/wllhea002/questions/A000053/view</url>
+          </entry>
+          <entry>
+            <number>3</number>
+            <shortcode>0008</shortcode>
+            <url>http://www.fullmarks.org.za/Members/wllhea002/questions/A000046/view</url>
+          </entry>
+          <entry>
+            <number>4</number>
+            <shortcode>0009</shortcode>
+            <url>http://www.fullmarks.org.za/Members/wllhea002/questions/A000047/00000002/view</url>
+          </entry>
+          <entry>
+            <number>5</number>
+            <shortcode>000a</shortcode>
+            <url>http://www.fullmarks.org.za/Members/wllhea002/questions/A000048/view</url>
+          </entry>
+          <entry>
+            <number>6</number>
+            <shortcode>000b</shortcode>
+            <url>http://www.fullmarks.org.za/Members/wllhea002/questions/A000049/view</url>
+          </entry>
+          <entry>
+            <number>7</number>
+            <shortcode>000c</shortcode>
+            <url>http://www.fullmarks.org.za/Members/wllhea002/questions/A000050/00000002/view</url>
+          </entry>
+          <entry>
+            <number>8</number>
+            <shortcode>000d</shortcode>
+            <url>http://www.fullmarks.org.za/Members/wllhea002/questions/A000754/view</url>
+          </entry>
+          <entry>
+            <number>9</number>
+            <shortcode>000e</shortcode>
+            <url>http://www.fullmarks.org.za/Members/wllhea002/questions/A000051/view</url>
+          </entry>
+        </shortcodes>
+      </exercise>
+    </section>
+  </content>
+</document>
