@@ -234,6 +234,9 @@ class cnxmlplus_to_shortcodecnxml:
 
         # Numbers
         for numberNode in dom.xpath('//number'):
+            # Avoid shortcode exercise numbers
+            if (numberNode.getparent().tag == 'entry') and (numberNode.getparent().getparent().tag == 'shortcodes'):
+                continue
             latexMode = utils.etree_in_context(numberNode, 'latex')
             if (len(numberNode) == 0) and ('e' in numberNode.text):
                 # Number in exponential notation: convert to <coeff> and <exp>
