@@ -283,7 +283,8 @@ class shortcodehtml_to_html:
         else:
             LOGGER.info('Fetching url: %s'%shortURL)
             try:
-                handle = urllib2.urlopen(shortURL)
+                # we can't wait forever, pass a timeout
+                handle = urllib2.urlopen(shortURL, timeout=10)
                 content = handle.read()
 
                 element = lxml.html.fromstring(content)
