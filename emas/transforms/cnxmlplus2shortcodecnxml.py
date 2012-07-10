@@ -320,7 +320,7 @@ class cnxmlplus_to_shortcodecnxml:
                 unitNode[-1].tail = unitNode[-1].tail.rstrip()
                 if latexMode:
                     unitNode[-1].tail += '}'
-            if (unitNode.getparent().tag == 'unit_number') and (unitNode.text[0] != u'\xb0'):
+            if (unitNode.getparent().tag == 'unit_number') and (len(unitNode.text) > 0) and (unitNode.text[0] != u'\xb0'):
                 # Leave space between number and unit, except for degrees
                 if latexMode:
                     unitNode.text = r'\ ' + unitNode.text
