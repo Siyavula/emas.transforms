@@ -107,7 +107,7 @@ class shortcodehtml_to_html:
                 element.getparent().remove(element)
             elif 'mindset.co.za' in params['url']:
                 # Mindset video
-                embedString = '<div id="sc' + params.get('shortcode', 'NONE') + '" class="video"><embed src="http://www.mindset.co.za/learn/sites/all/modules/mindset_video/mediaplayer/player.swf" width="' + params.get('width', '300') + '" height="' + params.get('height', 245) + '" allowscriptaccess="always" allowfullscreen="true" flashvars="file=' + params['url'] + '"/>'
+                embedString = '<div id="sc' + params.get('shortcode', 'NONE') + '" class="video"><embed src="http://www.mindset.co.za/learn/sites/all/modules/mindset_video/mediaplayer/player.swf" width="' + params.get('width', '300') + '" height="' + params.get('height', '245') + '" allowscriptaccess="always" allowfullscreen="true" flashvars="file=' + params['url'] + '"/>'
                 if params.get('strong') is not None:
                     embedString += '<p>' + params['strong'] + '</p>'
                 embedString += '</div>'
