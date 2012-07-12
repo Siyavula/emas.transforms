@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.1
+---
+
+- Bugfix: failed on empty <unit> element.
+
 1.0
 ---
 
