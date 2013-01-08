@@ -168,7 +168,7 @@ class cnxmlplus_to_shortcodecnxml:
             return prefix + 'pictures%s/%03i.png'%(self.chapterHash, count)
         elif self.pspictureGeneratorVersion == '1.1':
             code = ''.join(element.find('code').text.split())
-            codeHash = hashlib.md5(code).hexdigest()
+            codeHash = hashlib.md5(code.encode('utf-8')).hexdigest()
             return prefix + 'pictures/' + codeHash + '.png'
         else:
             raise ValueError, "Unknown pspicture generator version"
@@ -417,6 +417,7 @@ class cnxmlplus_to_shortcodecnxml:
                     'i_experiment': 'Informal experiment',
                     'activity': 'Activity',
                     'Investigation': 'Investigation',
+                    'investigation': 'Investigation',
                     'groupdiscussion': 'Group discussion',
                     'casestudy': 'Case study',
                     'project': 'Project'}[child.attrib['type']]))
@@ -436,6 +437,57 @@ class cnxmlplus_to_shortcodecnxml:
                             pos += 1
                     else:
                         pos += 1
+                childIndex += 1
+
+            elif child.tag == 'theorem':
+            # handle the theorem tag
+            # <theorem><title>...</title><statement>...</statement><given>...</given><required>...</required><proof>...</proof><label>...</label></theorem>
+                # the label is used like: <theorem><label>(PROOF NOT FOR EXAMS) Converse</label><title>Line from circle centre to mid-point of chord is perpendicular</title>
+                # use the <rule> tag for cnxml.
+                label = child.find('label') 
+                title = child.find('title')
+                statement = child.find('statement')
+                given = child.find('given')
+                required = child.find('required')
+                proof = child.find('proof')
+                # create new element
+                rule = etree.Element('rule')
+                rule.attrib['type'] = 'theorem'
+
+                # add the label to the title
+                if label is not None:
+                    title.text = label.text + " :\n" + title.text
+                # add the given and required as <para> into the proof section
+                newGiven = etree.Element('para')
+                newGiven.text = 'Given: ' + str(given.text)
+                for g in given: newGiven.append(g)
+
+                newRequired = etree.Element('para')
+                newRequired.text = 'Required: ' + str(required.text)
+                for r in required: newRequired.append(g)
+                # insert into proof element
+                proof.insert(0, newRequired)
+                proof.insert(0, newGiven)
+
+                # construct rule element
+                rule.append(title)
+                rule.append(statement)
+                rule.append(proof)
+                
+                # replace child with new element
+                child = rule
+                childIndex+=1
+
+            elif child.tag == 'monassis-template':
+                if child.attrib['rendered-as'] == 'example':
+                    # Handle this one like a worked example i.e. exercise in cnxml
+                    child.tag = 'exercise'
+                    problem = child.find('content/problem')
+                    solution = child.find('content/solution')
+                    child.remove(child.find('content'))
+                    child.append(problem)
+                    child.append(solution)
+
                 childIndex += 1
 
             elif child.tag == 'worked_example':
@@ -535,6 +587,92 @@ class cnxmlplus_to_shortcodecnxml:
                     """
                 childIndex += 1
 
+            elif child.tag == 'solution':
+                child.getparent().remove(child)
+
+            elif child.tag == 'exercises':
+            # we'll deal with the exercises/multi-part here
+                # replace with a section
+                newSection = etree.Element('section')
+                title = child.find('title')
+                multipart = child.find('multi-part')
+                if multipart is not None:
+                # some exercises have multi-part
+                    header = child.find('multi-part/header')
+                    entries = multipart.findall('entry')
+                    newEntriesList = etree.Element('list')
+                    newEntriesList.attrib['list-type'] = 'enumerated'
+                    for e in entries:
+                        e.tag = 'item'
+                        newEntriesList.append(e)
+                    newSection.append(title)
+                    for h in header:
+                        newSection.append(h)
+                    newSection.append(newEntriesList)
+                    child.getparent().replace(child, newSection)
+#                    child = newSection
+                else:
+                    entries = child.findall('entry')
+                    newEntriesList = etree.Element('list')
+                    newEntriesList.attrib['list-type'] = 'enumerated'
+                    for e in entries:
+                        e.tag = 'item'
+                        newEntriesList.append(e)
+                    newSection.append(title)
+                    newSection.append(newEntriesList)
+                    child.getparent().replace(child, newSection)
+
+
+
+                
+
+
+               
+
+
+
+        #       parent.insert(childIndex, (etree.Element('section')))
+        #       if child.find('title') is not None:
+        #           parent.append(child.find('title'))
+        #       # add the header contents
+        #       header = child.find('.//multi-part/header')
+        #       if header is not None:
+        #           for h in header:
+        #               parent[childIndex].append(h)
+        #       parent.remove(child)
+                childIndex+=1
+
+            elif child.tag == 'teachers-guide':
+                child.getparent().remove(child)
+
+            elif child.tag == "correct":
+                # if correct contains latex as a child, replace correct with
+                # child
+                if child.getparent().text == None:
+                    if child.text != None:
+                        child.getparent().text = child.text
+                else:
+                    if child.text != None:
+                        child.getparent().text = child.getparent().text + child.text
+                child.getparent().remove(child)
+                childIndex += 1 
+            
+            elif child.tag == 'nth':
+                # Standard form in cnxml+ is <nth>n</nth>
+                # change to n<sup>th</sup>
+                tagtext = child.text
+                previous_sibling = [sibling for sibling in child.itersiblings(preceding=True)]
+                if len(previous_sibling) != 0:
+                    # if the element has a preceding sibling
+                    previous_sibling[0].tail += tagtext
+                else:
+                    # the element is the first child
+                    child.getparent().text = child.getparent().text + tagtext
+                child.tag = "sup"
+                child.text = "th"
+                childIndex += 1 
+	        	
+
             elif child.tag == 'latex':
                 if child.attrib.get('display', 'inline') == 'block':
                     delimiters = '[]'
@@ -601,7 +739,12 @@ class cnxmlplus_to_shortcodecnxml:
                     'para',
                     'figure/type',
                     'exercise/problem', 'exercise/title',
-                    'exercise/shortcodes/entry/number', 'exercise/shortcodes/entry/shortcode', 'exercise/shortcodes/entry/url', 'exercise/shortcodes/entry/todo-content',
+                    'exercise/shortcodes/entry/number',
+                    'exercise/shortcodes/entry/shortcode',
+                    'exercise/shortcodes/entry/url',
+                    'exercise/shortcodes/entry/todo-content',
+                    'exercise/shortcodes/entry/todo-content/correct',
+                    'exercise/shortcodes/entry/todo-content/latex/correct',
                     'list/item/label',
                     'table/tgroup/tbody/row/entry',
                     'table/tgroup/colspec',
@@ -613,7 +756,23 @@ class cnxmlplus_to_shortcodecnxml:
                     'link',
                     'quote',
                     'rule/title', 'rule/statement', 'rule/proof',
-
+                    'theorem/title', 'theorem/label', 'theorem/given',
+                    'theorem/required', 'theorem/statement', 'theorem/proof',
+                    'monassis-template/title',
+                    'monassis-template/content',
+                    'monassis-template/content/problem',
+                    'monassis-template/content/solution',
+                    'monassis-template/content/solution/step',
+                    'monassis-template/content/solution/step/title',
+                    'exercises/multipart',
+                    'exercises/entry/shortcode',
+                    'exercises/entry/problem',
+                    'exercises/title',
+                    'exercises/entry',
+                    'multi-part/header',
+                    'multi-part/shortcode',
+                    'multi-part/entry',
+                    'multi-part/entry/problem',
                     'section/title',
                     'section/shortcode',
                     'image/arguments',
