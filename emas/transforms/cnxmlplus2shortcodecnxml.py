@@ -385,6 +385,12 @@ class cnxmlplus_to_shortcodecnxml:
                 mediaNode = utils.create_node('media')
                 mediaNode.append(utils.create_node('image'))
                 mediaNode.attrib['alt'] = 'Image'
+                attribution = child.find('attribution')
+                if attribution is not None:
+                    # insert attribution as para after image.
+                    attribution.tag = 'para'
+                    attribution.attrib['class'] = 'attribution'
+                    child.getparent().insert(childIndex+1, attribution)
                 urlNode = child.find('src')
                 if urlNode is not None:
                     mediaNode[0].attrib['src'] = urlNode.text.strip()
@@ -406,6 +412,26 @@ class cnxmlplus_to_shortcodecnxml:
             elif child.tag == 'caption':
                 if (len(child) == 1) and (child[0].tag == 'para'):
                     utils.etree_replace_with_node_list(child, child[0], child[0])
+                childIndex += 1
+
+            elif child.tag == 'linked-concepts':
+                # change this into a section with type=linkedconcepts.
+                child.tag = 'section'
+                title = etree.Element('title')
+                title.text = "Linked concepts"
+                child.insert(0, title)
+                concepts = child.findall('concept')
+                for concept in concepts:
+                    subject = concept.find('subject')
+                    subject.tag = 'para'
+                    subject.text = "Subject: " + subject.text
+                    grade = concept.find('grade')
+                    grade.tag = 'para'
+                    grade.text = "Grade: " + grade.text
+                    chapter = concept.find('chapter')
+                    chapter.tag = 'para'
+                    chapter.text = 'Chapter: ' + chapter.text
+
                 childIndex += 1
 
             elif child.tag == 'activity':
@@ -738,6 +764,12 @@ class cnxmlplus_to_shortcodecnxml:
                     'emphasis',
                     'para',
                     'figure/type',
+                    'linked-concepts',
+                    'linked-concepts/concept',
+                    'concept/text',
+                    'concept/subject',
+                    'concept/grade',
+                    'concept/chapter',
                     'exercise/problem', 'exercise/title',
                     'exercise/shortcodes/entry/number',
                     'exercise/shortcodes/entry/shortcode',
@@ -777,6 +809,7 @@ class cnxmlplus_to_shortcodecnxml:
                     'section/shortcode',
                     'image/arguments',
                     'image/src',
+                    'image/attribution',
                     'number/coeff', 'number/exp', 'number/base',
                     'nuclear_notation/mass_number', 'nuclear_notation/atomic_number', 'nuclear_notation/symbol',
                     'pspicture/code', 'pspicture/usepackage',
