@@ -1,5 +1,6 @@
 import re
 import urllib2
+import urlparse
 import os
 import lxml.html
 import HTMLParser
@@ -7,6 +8,7 @@ from asciimathml_wrapped import asciimathml
 from xml.etree import ElementTree
 
 from zope.interface import implements
+from zope.component.hooks import getSite
 from plone.memoize import ram
 
 from Products.PortalTransforms.interfaces import ITransform
@@ -46,6 +48,46 @@ class shortcodehtml_to_html:
     def process(self, orig):
         tree = lxml.html.fromstring(orig)
 
+        site = getSite()
+        parts = urlparse.urlparse(site.REQUEST.URL)
+        # we have no context to work with in the transform so we are
+        # simply assuming that we are always in the context of cnxml
+        # file
+        grade = parts.path.split('/')[-4]
+        chapter = parts.path.split('/')[-3]
+        practice_url = "/@@practice/%s/%s" % (grade, chapter)
+
+        example_html = """
+<div class="answer-section">
+    <div class="answer-actions">
+        <a href="javascript:;" class="show-answers">Show me this worked solution</a>
+    </div>
+    <div class="answer-content">
+    %s
+    </div>
+</div>
+"""
+        answer_section_html = """
+<div class="answer-section">
+    <div class="answer-actions">
+        <a href="javascript:;" class="show-answers">Show me the answers</a>
+        <a href="%s" class="practice_more">Practise more
+        questions like this</a>
+    </div>
+    <div class="answer-content">
+    %s
+    </div>
+</div>
+"""
+
+        # Hide answers in examples
+        for element in tree.xpath('//div[@class="example"]'):
+            sections = element.xpath('./div[@class="section"]')
+            # the last section should be the answer 
+            answer = sections[-1]
+            html = example_html % lxml.html.tostring(answer)
+            answer.getparent().replace(answer, lxml.html.fromstring(html))
+
         # Replace exercise shortcodes with solutions from fullmarks
         for element in tree.xpath('//shortcodes'):
             content = []
@@ -75,7 +117,11 @@ class shortcodehtml_to_html:
                         print repr(content[-1])
             # build a shortcode tree to contain all the fetched content
             try:
-                sctree = lxml.html.fromstring(''.join(content))
+                answer_section = answer_section_html % (
+                    practice_url, 
+                    ''.join(content)
+                )
+                sctree = lxml.html.fromstring(answer_section)
             except Exception, msg:
                 # Squash exceptions so that page still renders; log
                 # error and generate empty solution environment
@@ -84,7 +130,6 @@ class shortcodehtml_to_html:
                 LOGGER.info('  element: ' + repr(etree.tostring(element)))
                 LOGGER.info('  content: ' + repr(''.join(content)))
                 sctree = lxml.html.fromstring('<div> </div>')
-            sctree.set('class', 'shortcode-content')
             element.getparent().replace(element, sctree)
 
         # Embed videos
