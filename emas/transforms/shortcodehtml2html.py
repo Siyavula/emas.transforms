@@ -83,6 +83,8 @@ class shortcodehtml_to_html:
         # Hide answers in examples
         for element in tree.xpath('//div[@class="example"]'):
             sections = element.xpath('./div[@class="section"]')
+            if not sections:
+                continue
             # the last section should be the answer 
             answer = sections[-1]
             html = example_html % lxml.html.tostring(answer)
