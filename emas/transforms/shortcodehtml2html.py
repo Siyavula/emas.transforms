@@ -67,6 +67,17 @@ class shortcodehtml_to_html:
     </div>
 </div>
 """
+        maths_lit_answer_section_html = """
+<div class="answer-section">
+    <div class="answer-actions">
+        <a href="javascript:;" class="show-answers">Show me the answers</a>
+    </div>
+    <div class="answer-content">
+    %s
+    </div>
+</div>
+"""
+
         answer_section_html = """
 <div class="answer-section">
     <div class="answer-actions">
@@ -119,7 +130,11 @@ class shortcodehtml_to_html:
                         print repr(content[-1])
             # build a shortcode tree to contain all the fetched content
             try:
-                answer_section = answer_section_html % (
+                if grade == 'grade-10-mathematical-literacy':
+                    section_html = maths_lit_answer_section_html
+                else:
+                    section_html = answer_section_html
+                answer_section = section_html % (
                     practice_url, 
                     ''.join(content)
                 )
