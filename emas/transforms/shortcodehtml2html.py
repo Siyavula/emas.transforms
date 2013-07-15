@@ -131,13 +131,14 @@ class shortcodehtml_to_html:
             # build a shortcode tree to contain all the fetched content
             try:
                 if grade == 'grade-10-mathematical-literacy':
-                    section_html = maths_lit_answer_section_html
+                    answer_section = maths_lit_answer_section_html % (
+                        ''.join(content)
+                    )
                 else:
-                    section_html = answer_section_html
-                answer_section = section_html % (
-                    practice_url, 
-                    ''.join(content)
-                )
+                    answer_section = answer_section_html % (
+                        practice_url, 
+                        ''.join(content)
+                    )
                 sctree = lxml.html.fromstring(answer_section)
             except Exception, msg:
                 # Squash exceptions so that page still renders; log
