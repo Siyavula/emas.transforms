@@ -67,7 +67,7 @@ class shortcodehtml_to_html:
     </div>
 </div>
 """
-        maths_lit_answer_section_html = """
+        no_more_practise_answer_section_html = """
 <div class="answer-section">
     <div class="answer-actions">
         <a href="javascript:;" class="show-answers">Show me the answers</a>
@@ -130,8 +130,8 @@ class shortcodehtml_to_html:
                         print repr(content[-1])
             # build a shortcode tree to contain all the fetched content
             try:
-                if grade == 'grade-10-mathematical-literacy':
-                    answer_section = maths_lit_answer_section_html % (
+                if grade in ('grade-10-mathematical-literacy', 'lifesciences') :
+                    answer_section = no_more_practise_answer_section_html % (
                         ''.join(content)
                     )
                 else:
