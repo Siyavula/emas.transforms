@@ -53,9 +53,12 @@ class shortcodehtml_to_html:
         # we have no context to work with in the transform so we are
         # simply assuming that we are always in the context of cnxml
         # file
+        subject = parts.path.split('/')[-5]
         grade = parts.path.split('/')[-4]
         chapter = parts.path.split('/')[-3]
-        practice_url = "/@@practice/%s/%s" % (grade, chapter)
+        # After consolidating site, subject needs to be included in path
+        # for science practise links to work
+        practice_url = "/practice/%s/%s/%s" % (subject,grade, chapter)
 
         example_html = """
 <div class="answer-section">
